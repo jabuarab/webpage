@@ -3,6 +3,11 @@
   }
 
 
+body {
+ background-image: url("paper.gif");
+ background-color: #cccccc;
+} 
+
 .btn::before, .btn::after {
   content: '';
   position: absolute;
