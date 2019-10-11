@@ -1,5 +1,10 @@
 body{
 	font-family: 'Titillium Web', sans-serif;
+	position: sticky;
+ 	background-image: url("images/backgroundum2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 .navbar{
     background-color: white;
@@ -19,8 +24,7 @@ body{
 .navbar.toggler:focus{outline: none0}
 
 #hero {
-	background-image: url("images/backgroundum2.jpg");
-	background-size: cover;
+	
 	padding-top: 90px;
 	min-height: 700px;
 	color: #ffffff;
