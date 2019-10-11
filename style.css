@@ -3,27 +3,31 @@ body{
 }
 .navbar{
     background-color: white;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 60, .05);
     min-height: 70px
 }
-.nav-link{color: black}
-.nav-link:hover{color: grey}
-.nombrejuego{color: black;}
-.nombrejuego:hover{color: grey;}
+.nav-link{color: rgba(0, 0, 170, .9);}
+.nav-link:hover{color: rgba(194, 113, 0, 1);}
+.nombrejuego{color: rgba(0, 0, 170, .9);}
+.nombrejuego:hover{color: rgba(194, 113, 0, 1);}
 .logo-brand{
 	color: black
-	min-width: 40px;
-	max-width: 30px;
+	min-width: 140px;
+	max-width: 120px;
 }
 .navbar.toggler{font-size: 40px}
 .navbar.toggler:focus{outline: none0}
 
 #hero {
-	background-image: url("images/background2.jpg");
+	background-image: url("images/backgroundum2.jpg");
 	background-size: cover;
 	padding-top: 90px;
 	min-height: 700px;
 	color: #ffffff;
+}
+#sem {
+	color: black;
+	text-align: center;
 }
 
 .content-center{
@@ -33,6 +37,7 @@ body{
 }
 
 h1{ font-size: 66px; font-weight: 600; line-height: 80px; }
+h4{ color: blue; }
 
 p{
 	font-size: 18px;
@@ -44,22 +49,17 @@ p{
 #hero p {
 	color: white;
 }
-
-.btn{
-	font-size: 15px;
-	padding: 10px 10px;
-	min-width: 15px;	
-	min-height: 5px;
-	border-radius: 10px;
-	display: inline;
-}
-
 .btn-light{
-	display: inline;
+	margin-bottom: 10px;
+	width: 85px;
+	height: 100px;
 }
 
-.btn i{
-	font-size: 15px; margin-left: 8px; margin-right:330px;  margin-bottom: 8px;
+.col-1{
+	display: table;
 }
 
-.topmargin-xs{margin-top: 15px;}
+div.row{
+	width: 1150px;
+	height: 600px
+}
