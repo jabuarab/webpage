@@ -11,7 +11,7 @@ body{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 60, .05);
     min-height: 70px
 }
-.nav-link{color: rgba(0, 0, 170, .9);}
+.nav-link{color: rgba(0, 0, 170, .9); font-family: "Times New Roman", Times, serif;}
 .nav-link:hover{color: rgba(194, 113, 0, 1);}
 .nombrejuego{color: rgba(0, 0, 170, .9);}
 .nombrejuego:hover{color: rgba(194, 113, 0, 1);}
@@ -41,7 +41,9 @@ body{
 }
 
 h1{ font-size: 66px; font-weight: 600; line-height: 80px; }
-h4{ color: blue; }
+h4{ color: blue; 
+	font-family: "Times New Roman", Times, serif;
+    }
 
 p{
 	font-size: 18px;
@@ -55,15 +57,27 @@ p{
 }
 .btn-light{
 	margin-bottom: 10px;
-	width: 85px;
-	height: 100px;
+	width: 100px;
+	height: 70px;
+	font-size: 12px;
+	word-break: break-all;
 }
 
 .col-1{
 	display: table;
 }
 
-div.row{
-	width: 1150px;
-	height: 600px
+div.row{	
+	width: 1300px;
+	height: 600px;
+}
+
+#backg{
+	float: left;
+	margin-left: 25px;
+	
+}
+
+#analisis2:hover{
+
 }
