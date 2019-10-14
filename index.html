@@ -1,50 +1,162 @@
-<!DOCTYPE html5>
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="../css/main.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<title></title>
-</head>
-<body background->
-<header>
-	
-<nav class="navbar navbar-light" style="background-color: #000000;">
-	<span id="nav_divition_1"> <img src="" id="icon"><h1  style="color:#23c142; "><img src="" id="Nombre"> Aca va el nombre 
-		<a href=""><i class="fa fa-instagram" class="media_icon" style="font-size:48px;color:grey"></i></a>
-		<a href=""><i class="fa fa-youtube-play"class="media_icon" style="font-size:48px;color:grey"></i></a>
-		<a href=""><i class="fa fa-twitter"class="media_icon" style="font-size:48px;color:grey"></i></a>
-	</h1>
-	</span>
-	
-	
-	<span id="nav_divition_2">
-		
-	</span>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<span id="nav_divition_3"></span>
-	
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--<style src="css/style.css"></style>-->
+    <link href="style.css" rel="stylesheet">
+      
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600&display=swap" rel="stylesheet">
+
+    <link href = "https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"  rel = "stylesheet" >
 
 
-	<span id="nav_divition_4">
+    <title>Grilla ingenieria industrial</title>
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg">
+  <div class="container" >  <!-- me centra los elementos de la barra de nav-->
+  <a class="navbar-brand" href="#"><img src="images/logoum.png" class="logo-brand" alt="logo" ></a>
+  <h4 class="nombrejuego">Ingenieria Industrial</h4>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <i class = "icon ion-md-grid" > </i>  
+  </button>
 
-	<form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-  </form></span>
-
-
-
-
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto" id="navbar">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" id="boton1">Civil</a>
+      </li>
+      <li class="nav-item" style="border-radius: 25px;background-color: lightgrey" >
+        <a class="nav-link" href="#" id="boton2" >Industrial</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="boton3">Telematica</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" id="boton4">Informatica</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" id="boton5">Ciencia de datos</a>
+      </li>
+    </ul>
+  </div>
+</div>
 </nav>
 
-</header>
+<section id="hero">
+  
+  <div class="container" id="backg"> 
+    <div class="row">
+      <div class="col-1 borde" id="sem"><div>I</div><hr>
+      <div><button type="button" class="btn btn-light" id="analisis1" onclick="resaltarHijos()">Analisis I</button></div>
+      <div><button type="button" class="btn btn-light">GAL I</button></div>
+      <div><button type="button" class="btn btn-light">Fisica I</button></div>
+      <div><button type="button" class="btn btn-light">Introduccion a la robotica</button></div>
+      <div><button type="button" class="btn btn-light">Introduccion a la ingenieria</button></div>
 
-<div class="btn btn-two">
-<span>IDLE</span>
-</div>
+    </div>
+    
+      <div class="col-1 borde" id="sem"><div>II</div><hr>
+      <div><button type="button" class="btn btn-light" id="analisis2">Analisis II</button></div>
+      <div><button type="button" class="filler btn btn-light ">GAL II</button></div>
+      <div><button type="button" class="btn btn-light ">Fisica II</button></div>
+      <div><button type="button" class="btn btn-light ">Matlab</button></div>
+      <div><button type="button" class="btn btn-light ">Fundamentos Quimicos</button></div>
 
-</body>
+      </div>
+
+      <div class="col-1 borde" id="sem"><div>III</div><hr><div><button type="button" class="btn btn-light">&nbsp&nbsp&nbsp&nbsp Calculo &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp numerico</button></div>
+      <div><button type="button" class="filler btn btn-light ">Analisis III</button></div>
+      <div><button type="button" class="btn btn-light ">Mecanica I</button></div>
+      <div><button type="button" class="btn btn-light ">Laboratorio &nbsp&nbsp CAD</button></div>
+      <div><button type="button" class="btn btn-light ">Laboratorio &nbsp&nbsp&nbsp&nbspindustrial</button></div>
+      <div><button type="button" class="btn btn-light ">&nbsp&nbsp&nbspCiencias&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp humanas I</button></div>
+
+      </div>
+
+      <div class="col-1 borde" id="sem"><div>IV</div><hr><div><button type="button" class="btn btn-light">Probabilidad y estadistica</button></div>
+      <div><button type="button" class="filler btn btn-light ">Mecanica II</button></div>
+      <div><button type="button" class="btn btn-light " style="font-size: 11px">Termodinamica</button></div>
+      <div><button type="button" class="btn btn-light ">Recistencia de materiales</button></div>
+      <div><button type="button" class="btn btn-light ">Ayudantia &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp tecnica</button></div>
+      <div><button type="button" class="btn btn-light ">Economia</button></div>
+      <div><button type="button" class="btn btn-light ">Comunicacion profesional</button></div>
+
+      </div>
+      <div class="col-1 borde" id="sem"><div>V</div><hr><div><button type="button" class="btn btn-light">Investigacion operativa</button></div>
+      <div><button type="button" class="filler btn btn-light ">Electro-&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp magnetismo</button></div>
+      <div><button type="button" class="btn btn-light ">Practica &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  profesional I</button></div>
+      <div><button type="button" class="btn btn-light ">Recistencia de materiales II</button></div>
+      <div><button type="button" class="btn btn-light ">Ciencia e&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ingeniaria de materiales</button></div>
+      <div><button type="button" class="btn btn-light ">Laboratorio &nbsp&nbsp&nbsp&nbspindustrial II</button></div>
+      <div><button type="button" class="btn btn-light ">Contabiliidad y costos</button></div>
+
+      </div>
+      <div class="col-1 borde" id="sem"><div>VI</div><hr><div><button type="button" class="btn btn-light">Investigacion operativa II</button></div>
+      <div><button type="button" class="filler btn btn-light ">Electrotecnia I</button></div>
+      <div><button type="button" class="btn btn-light ">Mecanica de &nbsp&nbsp&nbsplos fluidos</button></div>
+      <div><button type="button" class="btn btn-light ">Metalurgia</button></div>
+      <div><button type="button" class="btn btn-light ">Cuestiones de la teologia</button></div>
+      <div><button type="button" class="btn btn-light " style="font-size: 11px">CET/IDIOMAS/MLE</button></div>
+
+      </div>
+      <div class="col-1 borde" id="sem"><div>VII</div><hr>
+        <div><button type="button" class="btn btn-light">Gestion de &nbsp&nbsp&nbsp&nbsp&nbsp calidad</button></div>
+      <div><button type="button" class="btn btn-light ">Organizacion &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbspde la &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp produccion</button></div>
+      <div><button type="button" class="btn btn-light ">Electronica II</button></div>
+      <div><button type="button" class="btn btn-light ">Practica &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  profesional II</button></div>
+      <div><button type="button" class="btn btn-light ">Transferencia de Calor</button></div>
+      <div><button type="button" class="btn btn-light ">Maquinas I</button></div>
+      <div><button type="button" class="btn btn-light ">&nbsp&nbsp&nbsp&nbspIngenieria &nbsp&nbsp&nbsp&nbsp ambiental</button></div>      
+      <div><button type="button" class="btn btn-light " style="font-size: 11px">CET/IDIOMAS/MLE</button></div>
+
+      </div>
+      <div class="col-1 borde" id="sem"><div>VIII</div><hr><div><button type="button" class="btn btn-light">Maquinas II</button></div>
+      <div><button type="button" class="btn btn-light ">Electronica</button></div>
+      <div><button type="button" class="btn btn-light ">&nbsp&nbsp&nbsp&nbsp&nbsp Procesos &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp unitrios</button></div>
+      <div><button type="button" class="btn btn-light ">Laboratorio &nbsp&nbsp&nbsp&nbspindustrial III</button></div>
+      <div><button type="button" class="btn btn-light ">&nbsp&nbsp&nbsp Ciencias &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp humanas II</button></div>
+      <div><button type="button" class="btn btn-light " style="font-size: 11px">CET/IDIOMAS/MLE</button></div>
+
+      </div>
+      <div class="col-1 borde" id="sem"><div>IX</div><hr><div><button type="button" class="btn btn-light" style="font-size: 11px">Automatizacion &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp y control &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbspindustrial</button></div>
+      <div><button type="button" class="btn btn-light ">&nbsp&nbsp&nbspDiseño de &nbsp&nbsp&nbsp &nbsp&nbspelementos de maquinas</button></div>
+      <div><button type="button" class="btn btn-light ">Practica &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  profesional III</button></div>
+      <div><button type="button" class="btn btn-light ">Laboratorio &nbsp&nbsp&nbsp&nbspindustrial III</button></div>
+      <div><button type="button" class="btn btn-light ">Proyecto de &nbsp&nbsp&nbsp inversion</button></div>
+      <div><button type="button" class="btn btn-light " style="font-size: 11px">CET/IDIOMAS/MLE</button></div>
+
+      </div>
+      <div class="col-1 borde" id="sem"><div>X</div><hr>
+        <div><button type="button" class="btn btn-light" style="font-size: 11px">Proyecto=IND</button></div>
+      <div><button type="button" class="filler btn btn-light ">Elementos de &nbsp&nbsp&nbsp&nbspgestion &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbspempresarial</button></div>
+      <div><button type="button" class="btn btn-light ">&nbsp&nbsp Gestion de &nbsp&nbsp&nbsp&nbspproyectos</button></div>
+      <div><button type="button" class="btn btn-light ">&nbsp&nbsp&nbsp&nbsp&nbsp Etica &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp profesional</button></div>
+      <div><button type="button" class="btn btn-light " style="font-size: 11px">CET/IDIOMAS/MLE</button></div>
+
+      </div>
+  </div>
+    
+     <!-- <button type="button" class="btn btn-light">Jugar<i class="icon ion-md-arrow-dropright-circle"></i></button>-->
+
+</section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+
+    <script  src="/main.js"></script>
+  
+
+  </body>
+
 
 </html>
