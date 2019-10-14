@@ -1,5 +1,6 @@
 body{
 	font-family: 'Titillium Web', sans-serif;
+<<<<<<< HEAD
 	position: sticky;
  	background-image: url("images/backgroundum2.jpg");
 	background-size: cover;
@@ -81,3 +82,22 @@ div.row{
 #analisis2:hover{
 
 }
+=======
+}
+.navbar{
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 70px
+}
+.nav-link{color: black}
+.nav-link:hover{color: grey}
+.nombrejuego{color: black;}
+.nombrejuego:hover{color: grey;}
+.logo-brand{
+	color: black
+	min-width: 40px;
+	max-width: 30px;
+}
+.navbar.toggler{font-size: 40px}
+.navbar.toggler:focus{outline: none}
+>>>>>>> 7dd9e03f098074ea0646a712969d6591676e1aee

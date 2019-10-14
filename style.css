@@ -16,12 +16,12 @@ body{
 .nombrejuego{color: rgba(0, 0, 170, .9);}
 .nombrejuego:hover{color: rgba(194, 113, 0, 1);}
 .logo-brand{
-	color: black
+	color: black;
 	min-width: 140px;
 	max-width: 120px;
 }
 .navbar.toggler{font-size: 40px}
-.navbar.toggler:focus{outline: none0}
+.navbar.toggler:focus{outline: none}
 
 #hero {
 	
@@ -36,7 +36,7 @@ body{
 
 .content-center{
 	max-width: 1200px;
-	margin: 0 auto 60 px auto;
+	margin: 0 auto 60px auto;
 	text-align: center;
 }
 
@@ -76,8 +76,4 @@ div.row{
 	float: left;
 	margin-left: 25px;
 	
-}
-
-#analisis2:hover{
-
 }
