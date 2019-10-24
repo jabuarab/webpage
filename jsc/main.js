@@ -290,7 +290,7 @@ function setValue(value) {
     document.getElementById('value').value = value;
 }
 
-function informar(idtemp) {
+/*function informar(idtemp) {
     var i, l, options = [{
             value: 'first',
             text: 'First'
@@ -307,7 +307,33 @@ function informar(idtemp) {
         newWindow.document.write("</option>");
     }
     newWindow.document.write("</select>");
+}*/
+function informar(idpadre) {
+
+		
+    for (i = 0; i < materias.length; i++) {
+
+        if (materias[i].id === idpadre) {
+        	var btnAbrirPopup = document.getElementById('idpadre'),
+        	overlay = document.getElementById('overlay'),
+        	popup = document.getElementById('popup'),
+        	btnCerrarPopup = document.getElementById('btn-cerrar-popup');
+        	overlay.classList.add('active');
+
+        }	
+
+    }
 }
+function cerrar(){
+
+	overlay.classList.remove("active");	
+
+}
+/*btnCerrarPopup.addEventListener('click',function()){
+	overlay.classList.remove('active');
+}*/
+
+
 
 /*
 function loop(){
@@ -331,7 +357,6 @@ loop()
 */
 
 idPadre = null;
-
 
 //0
 mouseTarget[0].addEventListener("mouseenter", e => {
