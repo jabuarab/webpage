@@ -290,6 +290,7 @@ function setValue(value) {
     document.getElementById('value').value = value;
 }
 
+<<<<<<< HEAD
 /*function informar(idtemp) {
     var i, l, options = [{
             value: 'first',
@@ -314,15 +315,19 @@ function informar(idpadre) {
     for (i = 0; i < materias.length; i++) {
 
         if (materias[i].id === idpadre) {
-        	var btnAbrirPopup = document.getElementById('idpadre'),
-        	overlay = document.getElementById('overlay'),
-        	popup = document.getElementById('popup'),
-        	btnCerrarPopup = document.getElementById('btn-cerrar-popup');
-        	overlay.classList.add('active');
+        	var btnAbrirPopup = document.getElementById('idpadre');
+        	var overlay = document.getElementById('overlay');
+        	var popup = document.getElementById('popup');
+        	var btnCerrarPopup = document.getElementById('btn-cerrar-popup');
+        	var overlay.classList.add('active');
 
         }	
 
     }
+=======
+function informar(idtemp) {
+alert(idtemp);
+>>>>>>> 55f1904f98dcb0a58b48c44127920f59873d6153
 }
 function cerrar(){
 
