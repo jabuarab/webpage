@@ -329,6 +329,21 @@ function cerrar(){
 	overlay.classList.remove("active");	
 
 }
+
+function cets(){
+      
+            overlay2 = document.getElementById('overlay2'),
+            popup = document.getElementById('popup2'),
+            btnCerrarPopup = document.getElementById('btn-cerrar-popup');
+            overlay.classList.add('active');
+
+
+}
+function cerrar2(){
+
+    overlay2.classList.remove("active"); 
+
+}
 /*btnCerrarPopup.addEventListener('click',function()){
 	overlay.classList.remove('active');
 }*/
@@ -918,58 +933,4 @@ mouseTarget[55].addEventListener("mouseleave", e => {
 mouseTarget[55].addEventListener("click", event => {
     informar(mouseTarget[55].id);
 });
-//56
-mouseTarget[56].addEventListener("mouseenter", e => {
-    pintar(mouseTarget[56].id);
-});
-mouseTarget[56].addEventListener("mouseleave", e => {
-    despintar(mouseTarget[56].id);
-});
-mouseTarget[56].addEventListener("click", event => {
-    informar(mouseTarget[56].id);
-});
-//57
-mouseTarget[57].addEventListener("mouseenter", e => {
-    pintar(mouseTarget[57].id);
-});
-mouseTarget[57].addEventListener("mouseleave", e => {
-    despintar(mouseTarget[57].id);
-});
-mouseTarget[57].addEventListener("click", event => {
-    informar(mouseTarget[57].id);
-});
-//58
-mouseTarget[58].addEventListener("mouseenter", e => {
-    pintar(mouseTarget[58].id);
-});
-mouseTarget[58].addEventListener("mouseleave", e => {
-    despintar(mouseTarget[58].id);
-});
-mouseTarget[58].addEventListener("click", event => {
-    informar(mouseTarget[58].id);
-});
-//59
-mouseTarget[59].addEventListener("mouseenter", e => {
-    pintar(mouseTarget[59].id);
-});
-mouseTarget[59].addEventListener("mouseleave", e => {
-    despintar(mouseTarget[59].id);
-});
-mouseTarget[59].addEventListener("click", event => {
-    informar(mouseTarget[59].id);
-});
-//60
-mouseTarget[60].addEventListener("mouseenter", e => {
-    pintar(mouseTarget[60].id);
-});
-mouseTarget[60].addEventListener("mouseleave", e => {
-    despintar(mouseTarget[60].id);
-});
-mouseTarget[60].addEventListener("click", event => {
-    informar(mouseTarget[60].id);
-});
-
-
-
-
 
