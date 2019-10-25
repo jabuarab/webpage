@@ -340,6 +340,23 @@ function cerrar(){
 	popup.classList.remove("active")	
 
 }
+
+function cets(){
+      
+            overlay2 = document.getElementById('overlay2'),
+            popup2 = document.getElementById('popup2'),
+            btnCerrarPopup = document.getElementById('btn-cerrar-popup');
+            overlay2.classList.add('active');
+            popup2.classList.add('active');
+
+
+}
+function cerrar2(){
+
+    overlay2.classList.remove("active"); 
+    popup2.classList.remove("active")
+
+}
 /*btnCerrarPopup.addEventListener('click',function()){
 	overlay.classList.remove('active');
 }*/
@@ -929,11 +946,6 @@ mouseTarget[55].addEventListener("mouseleave", e => {
 mouseTarget[55].addEventListener("click", event => {
     informar(mouseTarget[55].id);
 });
-getElementById("cets").addEventListener("click",e=>{
-	informar("cets")
-})
-
-
 
 
 
