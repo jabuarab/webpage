@@ -290,7 +290,6 @@ function setValue(value) {
     document.getElementById('value').value = value;
 }
 
-<<<<<<< HEAD
 /*function informar(idtemp) {
     var i, l, options = [{
             value: 'first',
@@ -315,19 +314,15 @@ function informar(idpadre) {
     for (i = 0; i < materias.length; i++) {
 
         if (materias[i].id === idpadre) {
-        	var btnAbrirPopup = document.getElementById('idpadre');
-        	var overlay = document.getElementById('overlay');
-        	var popup = document.getElementById('popup');
-        	var btnCerrarPopup = document.getElementById('btn-cerrar-popup');
-        	var overlay.classList.add('active');
+        	var btnAbrirPopup = document.getElementById('idpadre'),
+        	overlay = document.getElementById('overlay'),
+        	popup = document.getElementById('popup'),
+        	btnCerrarPopup = document.getElementById('btn-cerrar-popup');
+        	overlay.classList.add('active');
 
         }	
 
     }
-=======
-function informar(idtemp) {
-alert(idtemp);
->>>>>>> 55f1904f98dcb0a58b48c44127920f59873d6153
 }
 function cerrar(){
 
@@ -413,6 +408,26 @@ mouseTarget[4].addEventListener("mouseleave", e => {
 mouseTarget[4].addEventListener("click", event => {
     informar(mouseTarget[4].id);
 });
+//2
+    mouseTarget[2].addEventListener("mouseenter", e => {
+        pintar(mouseTarget[2].id);
+    });
+    mouseTarget[2].addEventListener("mouseleave", e => {
+        despintar(mouseTarget[2].id);
+    });
+    mouseTarget[2].addEventListener("click", event => {
+        informar(mouseTarget[2].id);
+    });
+//3
+    mouseTarget[3].addEventListener("mouseenter", e => {
+        pintar(mouseTarget[3].id);
+    });
+    mouseTarget[3].addEventListener("mouseleave", e => {
+        despintar(mouseTarget[3].id);
+    });
+    mouseTarget[3].addEventListener("click", event => {
+        informar(mouseTarget[3].id);
+    });
 //7
 mouseTarget[7].addEventListener("mouseenter", e => {
     pintar(mouseTarget[7].id);
