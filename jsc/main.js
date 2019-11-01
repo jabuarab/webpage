@@ -1,35 +1,45 @@
+//E = ESPECIFICA; C = COMPARTIDA; G = GENERAL
+
 let materias = [
     {
         "id": "analisis2",
-        "hijo": ["analisis1"]
+        "hijo": ["analisis1"],
+        "cat": "G"
     },
     {
         "id": "analisis1",
-        "hijo": []
+        "hijo": [],
+        "cat": "G"
     },
     {
         "id": "gal1",
-        "hijo": []
+        "hijo": [],
+        "cat": "G"
     },
     {
         "id": "fisica1",
-        "hijo": []
+        "hijo": [],
+        "cat": "G"
     },
     {
         "id": "intRob",
-        "hijo": []
+        "hijo": [],
+        "cat": "G"
     },
     {
         "id": "intIng",
-        "hijo": []
+        "hijo": [],
+        "cat": "G"
     },
     {
         "id": "gal2",
-        "hijo": ["gal1"]
+        "hijo": ["gal1"],
+        "cat": "G"
     },
     {
         "id": "fisica2",
-        "hijo": []
+        "hijo": [],
+        "cat": "C"
     },
     {
         "id": "matlab",
