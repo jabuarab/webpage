@@ -1,3 +1,6 @@
+//let materias = [{"id": "analisis2", "hijo": ["analisis1"]}];
+const mouseTarget = document.getElementsByClassName("btn");
+
 let materias = [
     {
         "id": "analisis2",
@@ -245,8 +248,6 @@ let materias = [
     }
 ];
 
-//let materias = [{"id": "analisis2", "hijo": ["analisis1"]}];
-const mouseTarget = document.getElementsByClassName("btn");
 
 console.log(mouseTarget.length);
 
@@ -257,7 +258,7 @@ function pintar(idpadre) {
         if (materias[i].id === idpadre) {
 
             for (j = 0; j < materias[i].hijo.length; j++) {
-                document.getElementById(idpadre).style.backgroundColor ="#e2e6ea"
+                document.getElementById(idpadre).style.backgroundColor ="#e2e6ea";
                 if (materias[i].hijo[j] !== null) {
                     console.log("pinta");
 
@@ -274,7 +275,7 @@ function despintar(idpadre) {
     for (i = 0; i < materias.length; i++) {
         if (materias[i].id === idpadre)
             for (j = 0; j < materias[i].hijo.length; j++) {
-                document.getElementById(idpadre).style.backgroundColor ="#f8f9fa"
+                document.getElementById(idpadre).style.backgroundColor ="#f8f9fa";
                 if (materias[i].hijo[j] !== null){
                     console.log("despinta");
 
@@ -343,8 +344,8 @@ function cerrar(){
 
 function cets(){
       
-            overlay2 = document.getElementById('overlay2'),
-            popup2 = document.getElementById('popup2'),
+            overlay2 = document.getElementById('overlay2');
+            popup2 = document.getElementById('popup2');
             btnCerrarPopup = document.getElementById('btn-cerrar-popup');
             overlay2.classList.add('active');
             popup2.classList.add('active');
