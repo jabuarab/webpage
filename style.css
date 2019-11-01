@@ -10,7 +10,7 @@ body{
     background-color: white;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 60, .05);
     min-height: 70px
-}
+    }
 
 #media_icon:hover{
     color:yellow;
@@ -81,8 +81,11 @@ div.row{
 }
 
 #backg{
+	position: relative;
 	float: left;
 	margin-left: 25px;
+	margin-top: -70px;
+
 	
 }
 
@@ -173,6 +176,18 @@ h3{
 .popup{
 	opacity: 0;
 	transform: scale(.6);
+}
+
+#backgfil{
+	position: relative;
+	left: 38%;
+	top: 2%;
+}
+
+.filtro{
+	margin-top: 5px;
+	margin-left: 4px;
+	margin-right: 4px;
 }
 
 

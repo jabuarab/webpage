@@ -20,7 +20,7 @@
     <title>Grilla ingenieria industrial</title>
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg overflow" style="overflow: inherit;">
   <div class="container" >  <!-- me centra los elementos de la barra de nav-->
   <a class="navbar-brand" href="#"><img src="images/logoum.png" class="logo-brand" alt="logo" ></a>
 
@@ -52,8 +52,14 @@
 </div>
 </nav>
 
-<section id="hero"  >
-  
+<span class="container" id="backgfil"> 
+<button type="button" class="btn btn-success filtro" id="filtroE">Especificas</button>
+<button type="button" class="btn btn-warning filtro" id="filtroC">Comunes</button>
+<button type="button" class="btn btn-info filtro" id="filtroG">Generales</button>
+</span>
+
+
+<section id="hero"  >  
   <div class="container" id="backg"> 
     <div class="row">
       <div class="col-1 borde" id="sem1"><div>I</div><hr>
@@ -173,7 +179,7 @@
           <h3>TEXTO2</h3>
           <h4>mas teto2</h4>
         
-      
+          
       </div>
     </div>
   </div>

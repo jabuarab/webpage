@@ -43,225 +43,306 @@ let materias = [
     },
     {
         "id": "matlab",
-        "hijo": []
+        "hijo": [],
+        "cat": "C"
     },
     {
         "id": "funQui",
-        "hijo": []
+        "hijo": [],
+        "cat": "C"
     },
     {
         "id": "caluclo",
-        "hijo": ["analisis2", "gal2"]
+        "hijo": ["analisis2", "gal2"],
+        "cat": "G"
     },
     {
         "id": "analisis3",
-        "hijo": ["analisis2", "gal2"]
+        "hijo": ["analisis2", "gal2"],
+        "cat": "C"
     },
     {
         "id": "mecanica1",
-        "hijo": ["fisica1", "analisis1"]
+        "hijo": ["fisica1", "analisis1"],
+        "cat": "C"
     },
     {
         "id": "cad",
-        "hijo": []
+        "hijo": [],
+        "cat": "C"
     },
     {
         "id": "labInd",
-        "hijo": []
+        "hijo": [],
+        "cat": "E"
     },
     {
         "id": "ch1",
-        "hijo": []
+        "hijo": [],
+        "cat": "G"
     },
     {
         "id": "prob",
-        "hijo": ["analisis2"]
+        "hijo": ["analisis2"],
+        "cat": "G"
     },
     {
         "id": "mecanica2",
-        "hijo": ["mecanica1"]
+        "hijo": ["mecanica1"],
+        "cat": "C"
     },
     {
         "id": "termodinamica",
-        "hijo": ["analisis1"]
+        "hijo": ["analisis1"],
+        "cat": "E"
     },
     {
         "id": "resMat",
-        "hijo": ["mecanica1"]
+        "hijo": ["mecanica1"],
+        "cat": "C"
     },
     {
         "id": "ayudaTecnica",
-        "hijo": ["cad"]
+        "hijo": ["cad"],
+        "cat": "E"
     },
     {
         "id": "eco",
-        "hijo": []
+        "hijo": [],
+        "cat": "G"
     },
     {
         "id": "comProf",
-        "hijo": []
+        "hijo": [],
+        "cat": "G"
     },
     {
         "id": "ivestOper",
-        "hijo": ["prob"]
+        "hijo": ["prob"],
+        "cat": "G"
     },
     {
         "id": "electroMag",
-        "hijo": ["fisica2", "analisis3"]
+        "hijo": ["fisica2", "analisis3"],
+        "cat": "C"
     },
     {
         "id": "pasantia1",
-        "hijo": []
+        "hijo": [],
+        "cat": "G"
     },
     {
         "id": "resMat2",
-        "hijo": ["resMat"]
+        "hijo": ["resMat"],
+        "cat": "C"
     },
     {
         "id": "ceinIngMat",
-        "hijo": ["funQui"]
+        "hijo": ["funQui"],
+        "cat": "C"
     },
     {
         "id": "labInd2",
-        "hijo": ["labInd"]
+        "hijo": ["labInd"],
+        "cat": "E"
     },
     {
         "id": "contYcost",
-        "hijo": []
+        "hijo": [],
+        "cat": "G"
     },
     {
         "id": "ivestOper2",
-        "hijo": ["ivestOper"]
+        "hijo": ["ivestOper"],
+        "cat": "C"
     },
     {
         "id": "Electrotecnia1",
-        "hijo": ["electroMag"]
+        "hijo": ["electroMag"],
+        "cat": "C"
     },
     {
         "id": "mecFludis",
-        "hijo": ["analisis3", "pasantia1", "termodinamica"]
+        "hijo": ["analisis3", "pasantia1", "termodinamica"],
+        "cat": "E"
     },
     {
         "id": "Metalurgia",
-        "hijo": ["ceinIngMat"]
+        "hijo": ["ceinIngMat"],
+        "cat": "E"
+
     },
     {
         "id": "teologia",
-        "hijo": []
+        "hijo": [],
+        "cat": "G"
     },
-    {
-        "id": "cet1",
-        "hijo": []
-    },
+
     {
         "id": "gestCal",
-        "hijo": []
+        "hijo": [],
+        "cat": "G"
     },
     {
         "id": "operProd1",
-        "hijo": ["ivestOper"]
+        "hijo": ["ivestOper"],
+        "cat": "E"
     },
     {
         "id": "Electrotecnia2",
-        "hijo": ["Electrotecnia1"]
+        "hijo": ["Electrotecnia1"],
+        "cat": "E"
     },
     {
         "id": "pasantia2",
-        "hijo": []
+        "hijo": [],
+        "cat": "G"
     },
     {
         "id": "transfCalor",
-        "hijo": ["termodinamica"]
+        "hijo": ["termodinamica"],
+        "cat": "E"
     },
     {
         "id": "ingAmbiental",
-        "hijo": []
+        "hijo": [],
+        "cat": "C"
     },
     {
         "id": "maq1",
-        "hijo": ["mecFludis", "mecanica2"]
+        "hijo": ["mecFludis", "mecanica2"],
+        "cat": "E"
+
     },
-    {
-        "id": "cet2",
-        "hijo": []
-    },
+
     {
         "id": "maq2",
-        "hijo": ["pasantia2", "transfCalor"]
+        "hijo": ["pasantia2", "transfCalor"],
+        "cat": "E"
     },
     {
         "id": "Electronica",
-        "hijo": ["electroMag"]
+        "hijo": ["electroMag"],
+        "cat": "C"
     },
     {
         "id": "prosUnitarios",
-        "hijo": ["funQui"]
+        "hijo": ["funQui"],
+        "cat": "E"
     },
     {
         "id": "labInd3",
-        "hijo": ["labInd2"]
+        "hijo": ["labInd2"],
+        "cat": "E"
     },
     {
         "id": "ch2",
-        "hijo": []
+        "hijo": [],
+        "cat": "G"
     },
     {
         "id": "autoControlIndustrial",
-        "hijo": ["Electronica"]
+        "hijo": ["Electronica"],
+        "cat": "E"
     },
     {
         "id": "diseElementMaquinas",
-        "hijo": ["resMat2"]
+        "hijo": ["resMat2"],
+        "cat": "E"
     },
     {
         "id": "pasantia3",
-        "hijo": []
+        "hijo": [],
+        "cat": "G"
     },
     {
         "id": "maq3",
-        "hijo": ["maq2"]
+        "hijo": ["maq2"],
+        "cat": "E"
     },
     {
         "id": "proyInven",
-        "hijo": ["contYcost"]
+        "hijo": ["contYcost"],
+        "cat": "G"
     },
-    {
-        "id": "cet3",
-        "hijo": []
-    },
-    {
-        "id": "cet4",
-        "hijo": []
-    },
+
     {
         "id": "proyInd",
-        "hijo": ["Electrotecnia2", "maq3"]
+        "hijo": ["Electrotecnia2", "maq3"],
+        "cat": "E"
     },
     {
         "id": "elemGestion",
-        "hijo": ["eco"]
+        "hijo": ["eco"],
+        "cat": "G"
+
     },
     {
         "id": "gestiProy",
-        "hijo": ["proyInven"]
+        "hijo": ["proyInven"],
+        "cat": "G"
     },
     {
         "id": "etica",
-        "hijo": ["ch1"]
-    },
-    {
-        "id": "cet5",
-        "hijo": []
+        "hijo": ["ch1"],
+        "cat": "G"
     }
+    
 ];
 
 //let materias = [{"id": "analisis2", "hijo": ["analisis1"]}];
 const mouseTarget = document.getElementsByClassName("btn");
 
+var staticbool=true;
+
 console.log(mouseTarget.length);
 
-function pintar(idpadre) {
+function filtro(id){
+    var a;
+    if (id=="filtroE") {
+        a="E";
+    }
+    else if(id=="filtroG"){
+        a="G"
+    }
+    else if(id=="filtroC"){
+        a="C"
+    }
+    for (i=0; i<materias.length; i++){
+        console.log(i);
+        console.log(materias[i].id);
 
+        if(staticbool){
+        if (materias[i].cat=="E" && materias[i].cat==a){
+            document.getElementById(materias[i].id).style.backgroundColor="rgba(0,200,0,0.5)";
+            document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.2rem rgba(033,231,0,0.5)";
+            console.log("verde");
+        }
+        else if (materias[i].cat=="G" && materias[i].cat==a){
+            document.getElementById(materias[i].id).style.backgroundColor="rgba(23,162,184,0.5)";
+            document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.2rem rgba(58,176,195,0.5)";
+        console.log("azul");
+        }
+        else if (materias[i].cat=="C" && materias[i].cat==a){
+            document.getElementById(materias[i].id).style.backgroundColor="rgba(255,190,7,0.5)";
+            document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.2rem rgba(255,231,130,0.5)";
+            console.log("amarillo");
+        }
+        console.log("estoyaca")
+        }
+        else if (!staticbool) {
+            document.getElementById(materias[i].id).style.backgroundColor = "#f8f9fa";
+            document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.0rem rgba(216,217,219,0.5)";
+            
+        }
+      
+    } 
+      staticbool=!staticbool;
+  
+}
+
+function pintar(idpadre) {
+if(staticbool){
     for (i = 0; i < materias.length; i++) {
 
         if (materias[i].id === idpadre) {
@@ -270,7 +351,6 @@ function pintar(idpadre) {
                 document.getElementById(idpadre).style.backgroundColor ="#e2e6ea"
                 if (materias[i].hijo[j] !== null) {
                     console.log("pinta");
-
                     document.getElementById(materias[i].hijo[j]).style.backgroundColor = "rgba(255,99,71,0.5)";
                     document.getElementById(materias[i].hijo[j]).style.boxShadow = "0px 0px 0px 0.2rem rgba(220,20,60,0.5)";
                 }
@@ -278,23 +358,24 @@ function pintar(idpadre) {
         }
     }
 }
-
+}
 function despintar(idpadre) {
-
+if (staticbool) {
     for (i = 0; i < materias.length; i++) {
         if (materias[i].id === idpadre)
             for (j = 0; j < materias[i].hijo.length; j++) {
                 document.getElementById(idpadre).style.backgroundColor ="#f8f9fa"
                 if (materias[i].hijo[j] !== null){
                     console.log("despinta");
-
+                    document.getElementById(materias[i].id).style.backgroundColor = "#f8f9fa";
+                    document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.0rem rgba(216,217,219,0.5)";
                     document.getElementById(materias[i].hijo[j]).style.backgroundColor = "#f8f9fa";
                     document.getElementById(materias[i].hijo[j]).style.boxShadow = "0px 0px 0px 0.0rem rgba(216,217,219,0.5)";
                 }
             }
     }
 }
-
+}
 
 function setValue(value) {
     document.getElementById('value').value = value;
@@ -957,5 +1038,9 @@ mouseTarget[55].addEventListener("click", event => {
     informar(mouseTarget[55].id);
 });
 
+document.getElementById("filtroE").addEventListener("click",e=>{filtro("filtroE")})
 
+document.getElementById("filtroG").addEventListener("click",e=>{filtro("filtroG")})
+
+document.getElementById("filtroC").addEventListener("click",e=>{filtro("filtroC")})
 
