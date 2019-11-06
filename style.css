@@ -6,10 +6,136 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+
+@media screen and (max-width: 1330px){ 
+	.row{
+		max-width: 1200px;
+	}
+}
+
+@media screen and (max-width: 1230px){ 
+	.row{
+		max-width: 1100px;
+	}
+	#conteinercets{
+		margin-left: -815px;
+		margin-top: 480px;
+	}
+}
+
+@media screen and (max-width: 1130px){ 
+	.row{
+		max-width: 1000px;
+	}
+	#conteinercets{
+		margin-left: -865px;
+		margin-top: 480px;
+	}
+}
+
+@media screen and (max-width: 1030px){ 
+	.row{
+		max-width: 900px;
+	}
+	#conteinercets{
+		margin-left: -879px;
+		margin-top: 610px;
+	}
+}
+
+@media screen and (max-width: 930px){ 
+	.row{
+		max-width: 800px;
+	}
+	#conteinercets{
+		margin-left: -996px;
+		margin-top: 610px;
+	}
+}
+
+@media screen and (max-width: 830px){ 
+	.row{
+		max-width: 700px;
+	}
+
+}
+
+@media screen and (max-width: 730px){ 
+	.row{
+		max-width: 600px;
+	}
+	#backgfil{
+		margin-left: -140px;
+	}
+	#conteinercets{
+		margin-left: -525px;
+		margin-top: 460px;
+	}
+}
+
+@media screen and (max-width: 630px){ 
+	.row{
+		max-width: 500px;
+	}
+	#backgfil{
+		margin-left: -140px;
+	}
+	#conteinercets{
+		margin-left: -525;
+		margin-top: 370px;
+	}
+}
+
+@media screen and (max-width: 530px){ 
+	.row{
+		max-width: 400px;
+	}
+	#backgfil{
+		margin-left: -140px;
+	}
+	#conteinercets{
+		margin-left: -520px;
+		margin-top: 370px;
+	}
+
+}
+
+@media screen and (max-width: 376px){ 
+	.row{
+		max-width: 300px;
+	}
+	#backgfil{
+		margin-left: -140px;
+	}
+	#conteinercets{
+		margin-left: -400px;
+		margin-top: 470px;
+	}
+	#cets{
+		width: 200px;
+	}
+	body{
+		background-color: black;
+	}
+
+}
+
+
+
+
+.row{
+		
+	}
+
+#backnavbarr{
+	width:100%;
+}
+
 .navbar{
     background-color: white;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 60, .05);
     min-height: 70px
+    width: 100%
     }
 
 #media_icon:hover{
@@ -37,7 +163,7 @@ body{
 	min-height: 700px;
 	color: #ffffff;
 }
-#sem {
+.col-1 {
 	color: black;
 	text-align: center;
 }
@@ -81,7 +207,7 @@ div.row{
 }
 
 #backg{
-	position: relative;
+	position: absolute;
 	float: left;
 	margin-left: 25px;
 	margin-top: -70px;
