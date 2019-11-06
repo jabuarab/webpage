@@ -287,7 +287,7 @@ let materiasind = [
         "hijo": ["ch1"],
         "cat": "G"
     }
-    
+
 ];
 
 let materiasinf=[
@@ -454,7 +454,7 @@ let materiasinf=[
     {
         "id": "tic3",
         "hijo": [""],
-        "cat": "E"
+        "cat": "G"
     },
     {
         "id": "teologia",
