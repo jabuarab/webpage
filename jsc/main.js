@@ -558,7 +558,8 @@ let materiasinf=[
     },
     {
         "id": "etica",
-        "hijo": ["ch1"],
+        "hijo": ["" +
+        ""],
         "cat": "G"
     }
 ];
@@ -1333,7 +1334,44 @@ mouseTarget[55].addEventListener("mouseleave", e => {
 mouseTarget[55].addEventListener("click", event => {
     informar(mouseTarget[55].id);
 });
+if(htmlid=="Industrial"){
+//56
+    mouseTarget[56].addEventListener("mouseenter", e => {
+        pintar(mouseTarget[56].id);
+    });
+    mouseTarget[56].addEventListener("mouseleave", e => {
+        despintar(mouseTarget[56].id);
+    });
+    mouseTarget[56].addEventListener("click", event => {
+        informar(mouseTarget[56].id);
+    });
+//57
+    mouseTarget[57].addEventListener("mouseenter", e => {
+        pintar(mouseTarget[57].id);
+    });
+    mouseTarget[57].addEventListener("mouseleave", e => {
+        despintar(mouseTarget[57].id);
+    });
+    mouseTarget[57].addEventListener("click", event => {
+        informar(mouseTarget[57].id);
+    });
+    //58
+    mouseTarget[58].addEventListener("mouseenter", e => {
+        pintar(mouseTarget[58].id);
+    });
+    mouseTarget[58].addEventListener("mouseleave", e => {
+        despintar(mouseTarget[58].id);
+    });
+    mouseTarget[58].addEventListener("click", event => {
+        informar(mouseTarget[58].id);
+    });
 
+
+
+
+}
+for(i=0;i<mouseTarget.length;i++){
+console.log(i)}
 document.getElementById("filtroE").addEventListener("click",e=>{filtro("filtroE")})
 
 document.getElementById("filtroG").addEventListener("click",e=>{filtro("filtroG")})
