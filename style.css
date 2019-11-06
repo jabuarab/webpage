@@ -245,7 +245,7 @@ h3{
 }
 .popup{
 	 background: white;
-	 box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3)
+	 box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
 	 border-radius: 3px;
 	 font-family: 'Times New Roman', sans-serif;
 	 padding: 20px;
@@ -273,12 +273,21 @@ h3{
 	color: black;
 }
 
+
 .popup h3{
-	color: red
+	color: rgba(39, 39, 39, 0.81);
 	font-size: 36px;
 	font-weight: 600;
 	margin-bottom: 10px;
-	
+}
+.popup div{
+
+}
+.popup span{
+	text-align: left;
+	text-align-all: left;
+	position: relative;
+	color: rgba(56, 56, 56, 0.81);
 }
 
 #cets{

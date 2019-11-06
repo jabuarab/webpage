@@ -692,6 +692,21 @@ if (idpadre != "cets"){
         	btnCerrarPopup = document.getElementById('btn-cerrar-popup');
         	overlay.classList.add('active');
         	popup.classList.add('active');
+        	popup.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup\" class=\"btn-cerrar-popup\" onclick=\"cerrar()\"><i class=\"fa fa-times\"></i></button>\n" +
+                "          <h3>Fisica</h3>\n" +
+                "          <span>Profe:Juan Pablo Fossati"+"</span>\n" +
+                            "<div></div>"+
+                "          <span>Cantidad de Creditos:9"+"</span>\n" +
+                "<div></div>"+
+                "          <span>Semestre:I"+"</span>\n" +
+                "<div></div>"+
+                "          <span>Previas:---"+"</span>\n" +
+                "<div></div>"+
+                "          <span>Exonerable:con nota superior a 9"+"</span>\n" +
+                "<div></div>"+
+                "          <span>Descripcion:--relleno.."+"</span>\n"
+            ;
+
 
         }	
 
