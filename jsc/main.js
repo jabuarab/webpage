@@ -4,288 +4,624 @@ let materiasind = [
     {
         "id": "analisis2",
         "hijo": ["analisis1"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "analisis1",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "gal1",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "fisica1",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "intRob",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "intIng",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "gal2",
         "hijo": ["gal1"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "fisica2",
         "hijo": [],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "matlab",
         "hijo": [],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "funQui",
         "hijo": [],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
+
     },
     {
         "id": "caluclo",
         "hijo": ["analisis2", "gal2"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "analisis3",
         "hijo": ["analisis2", "gal2"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "mecanica1",
         "hijo": ["fisica1", "analisis1"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "cad",
         "hijo": [],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "labInd",
         "hijo": [],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "ch1",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "prob",
         "hijo": ["analisis2"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "mecanica2",
         "hijo": ["mecanica1"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "termodinamica",
         "hijo": ["analisis1"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "resMat",
         "hijo": ["mecanica1"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "ayudaTecnica",
         "hijo": ["cad"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "eco",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "comProf",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "ivestOper",
         "hijo": ["prob"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "electroMag",
         "hijo": ["fisica2", "analisis3"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "pasantia1",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "resMat2",
         "hijo": ["resMat"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "ceinIngMat",
         "hijo": ["funQui"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "labInd2",
         "hijo": ["labInd"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "contYcost",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "ivestOper2",
         "hijo": ["ivestOper"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "Electrotecnia1",
         "hijo": ["electroMag"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "mecFludis",
         "hijo": ["analisis3", "pasantia1", "termodinamica"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "Metalurgia",
         "hijo": ["ceinIngMat"],
-        "cat": "E"
-
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "teologia",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
 
     {
         "id": "gestCal",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "operProd1",
         "hijo": ["ivestOper"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "Electrotecnia2",
         "hijo": ["Electrotecnia1"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "pasantia2",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "transfCalor",
         "hijo": ["termodinamica"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "ingAmbiental",
         "hijo": [],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "maq1",
         "hijo": ["mecFludis", "mecanica2"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
 
     },
 
     {
         "id": "maq2",
         "hijo": ["pasantia2", "transfCalor"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "Electronica",
         "hijo": ["electroMag"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "prosUnitarios",
         "hijo": ["funQui"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "labInd3",
         "hijo": ["labInd2"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "ch2",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "autoControlIndustrial",
         "hijo": ["Electronica"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "diseElementMaquinas",
         "hijo": ["resMat2"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "pasantia3",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "maq3",
         "hijo": ["maq2"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "proyInven",
         "hijo": ["contYcost"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
 
     {
         "id": "proyInd",
         "hijo": ["Electrotecnia2", "maq3"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "elemGestion",
         "hijo": ["eco"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
 
     },
     {
         "id": "gestiProy",
         "hijo": ["proyInven"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "etica",
         "hijo": ["ch1"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     }
 
 ];
@@ -294,273 +630,590 @@ let materiasinf=[
     {
         "id": "analisis2",
         "hijo": ["analisis1"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "analisis1",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "gal1",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "fisica1",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "intRob",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "intIng",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "gal2",
         "hijo": ["gal1"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "logica",
         "hijo": [],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "sisdig1",
         "hijo": [],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "prog1",
         "hijo": [],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "caluclo",
         "hijo": ["analisis2", "gal2"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "matdis",
         "hijo": ["analisis1", "gal1"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "prog2",
         "hijo": ["prog1"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "bbdd",
         "hijo": ["prog1"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "sisdig2",
         "hijo": ["sisdig1"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "ch1",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "prob",
         "hijo": ["analisis2"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "analgo",
         "hijo": ["prog2"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "bbdd2",
         "hijo": ["bbdd1"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "tic1",
         "hijo": ["prog2"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "eco",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "comProf",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "ivestOper",
         "hijo": ["prob"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "arqapp",
         "hijo": [],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "pasantia1",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "sisop",
         "hijo": ["sisdig2"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "tic2",
         "hijo": [""],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "contYcost",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "teoComp",
         "hijo": ["matdis"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "ivestOper2",
         "hijo": ["ivestOper"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "ingsoft",
         "hijo": ["tic1"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "redes1",
         "hijo": ["sisdig2", "pasantia1"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "tic3",
         "hijo": [""],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "teologia",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "gestCal",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "ingsoft2",
         "hijo": ["ingsoft"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "infrainfo",
         "hijo": ["redes1"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "sisdis",
         "hijo": ["redes1"],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "pasantia2",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
 
     {
         "id": "tic4",
         "hijo": [],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "derechotel",
         "hijo": [],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
 
     },
 
     {
         "id": "metoinv",
         "hijo": [],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "tic5",
         "hijo": [],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "ch2",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "audicontrol",
         "hijo": ["ingsoft"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "intelnegocios",
         "hijo": ["bbdd2"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "pasantia3",
         "hijo": [],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "tic6",
         "hijo": [],
-        "cat": "C"
+        "cat": "C",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "proyInven",
         "hijo": ["contYcost"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
 
     {
         "id": "proyInf",
         "hijo": ["analgo", "redes1","ingsoft"],
-        "cat": "E"
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "elemGestion",
         "hijo": ["eco"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
 
     },
     {
         "id": "gestiProy",
         "hijo": ["proyInven"],
-        "cat": "G"
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "etica",
-        "hijo": ["" +
-        ""],
-        "cat": "G"
+        "hijo": [""],
+        "cat": "G",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     }
 ];
 
