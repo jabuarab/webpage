@@ -10,7 +10,8 @@ let materiasind = [
         "creditos":"",
         "semestre":"",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
-        "descripcion":""
+        "descripcion":"",
+        "previas":""//escibilias tipo "previa1,pervia2,previa3" si no tiene  preivas pone "---"
     },
     {
         "id": "analisis1",
@@ -21,7 +22,8 @@ let materiasind = [
         "creditos":"",
         "semestre":"",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
-        "descripcion":""
+        "descripcion":"",
+        "previas":""//escibilias tipo "previa1,pervia2,previa3"
     },
     {
         "id": "gal1",
@@ -32,7 +34,8 @@ let materiasind = [
         "creditos":"",
         "semestre":"",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
-        "descripcion":""
+        "descripcion":"",
+        "previas":""//escibilias tipo "previa1,pervia2,previa3"
     },
     {
         "id": "fisica1",
@@ -1348,17 +1351,17 @@ if (idpadre != "cets"){
         	popup.classList.add('active');
         	popup.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup\" class=\"btn-cerrar-popup\" onclick=\"cerrar()\"><i class=\"fa fa-times\"></i></button>\n" +
                 "          <h3>Fisica</h3>\n" +
-                "          <span>Profe:Juan Pablo Fossati"+"</span>\n" +
+                "          <span>Profesor:"+materias[i].profesor+"</span>\n" +
                             "<div></div>"+
-                "          <span>Cantidad de Creditos:9"+"</span>\n" +
+                "          <span>Cantidad de Creditos:"+materias[i].creditos +"</span>\n" +
                 "<div></div>"+
-                "          <span>Semestre:I"+"</span>\n" +
+                "          <span>Semestre:I"+materias[i].semestre +"</span>\n" +
                 "<div></div>"+
-                "          <span>Previas:---"+"</span>\n" +
+                "          <span>Previas:"+materias[i].previas+"</span>\n" +
                 "<div></div>"+
-                "          <span>Exonerable:con nota superior a 9"+"</span>\n" +
+                "          <span>Exonerable:"+materias[i].exonerable+"</span>\n" +
                 "<div></div>"+
-                "          <span>Descripcion:--relleno.."+"</span>\n"
+                "          <span>Descripcion:"+materias[i].descripcion+"</span>\n"
             ;
 
 
