@@ -1350,7 +1350,7 @@ if (idpadre != "cets"){
         	overlay.classList.add('active');
         	popup.classList.add('active');
         	popup.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup\" class=\"btn-cerrar-popup\" onclick=\"cerrar()\"><i class=\"fa fa-times\"></i></button>\n" +
-                "          <h3>Fisica</h3>\n" +
+                "          <h3>"+ materias[i].nombre+"</h3>\n" +
                 "          <span>Profesor:"+materias[i].profesor+"</span>\n" +
                             "<div></div>"+
                 "          <span>Cantidad de Creditos:"+materias[i].creditos +"</span>\n" +
