@@ -4,43 +4,43 @@ let materiasind = [
         "id": "analisis2",
         "hijo": ["analisis1"],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "nombre":"Analisis II",
+        "profesor":"José Díaz Milesi",
+        "creditos":"9",
+        "semestre":"II",
+        "exonerable":"Se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
         "id": "analisis1",
         "hijo": [],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "nombre":"Analisis I",
+        "profesor":"José Díaz Milesi",
+        "creditos":"9",
+        "semestre":"I",
+        "exonerable":"Se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
-        "id": "gal1",
+        "id": "gal1",//falta datos exoneracion
         "hijo": [],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "nombre":"Geometría y Álgebra Lineal I",
+        "profesor":"Alfredo Piria",
+        "creditos":"9",
+        "semestre":"I",
+        "exonerable":"Se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
-        "id": "fisica1",
+        "id": "fisica1",//falta datos exoneracion
         "hijo": [],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
+        "nombre":"Física I",
+        "profesor":"Juan Pablo Fossati",
+        "creditos":"7,5",
+        "semestre":"I",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -48,10 +48,10 @@ let materiasind = [
         "id": "intRob",
         "hijo": [],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
+        "nombre":"Introducción a la Robótica",
+        "profesor":"Gustavo Compagnone",
+        "creditos":"6",
+        "semestre":"I",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -59,37 +59,37 @@ let materiasind = [
         "id": "intIng",
         "hijo": [],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "nombre":"Introducción a la Ingeniería",
+        "profesor":"Adrián Santilli",
+        "creditos":"6",
+        "semestre":"I",
+        "exonerable":"Se exonera totalmente con nota 6",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
         "id": "gal2",
         "hijo": ["gal1"],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "nombre":"Geometría y algebra lineal II",
+        "profesor":"Alfredo Piria",
+        "creditos":"9",
+        "semestre":"II",
+        "exonerable":"se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
         "id": "fisica2",
         "hijo": [],
         "cat": "C",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
+        "nombre":"Física II",
+        "profesor":"Juan Pablo Fossati",
+        "creditos":"7,5",
+        "semestre":"II",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
-        "id": "matlab",
+        "id": "matlab",//falta
         "hijo": [],
         "cat": "C",
         "nombre":"",
@@ -100,24 +100,24 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "funQui",
+        "id": "funQui",//nose si esta bien lo de exonerable
         "hijo": [],
         "cat": "C",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "nombre":"Fundamentos Químicos de la Ingeniería",
+        "profesor":"Laura Luzuriaga",
+        "creditos":"6",
+        "semestre":"II",
+        "exonerable":"no es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
-        "id": "caluclo",
+        "id": "caluclo",//calculo?
         "hijo": ["analisis2", "gal2"],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
+        "nombre":"Cálculo Numérico",
+        "profesor":"",//falta
+        "creditos":"6",
+        "semestre":"III",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -125,21 +125,21 @@ let materiasind = [
         "id": "analisis3",
         "hijo": ["analisis2", "gal2"],
         "cat": "C",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "nombre":"Análisis Matemático III ",
+        "profesor":"José Díaz Milesi ",
+        "creditos":"9",
+        "semestre":"III",
+        "exonerable":"se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
-        "id": "mecanica1",
+        "id": "mecanica1",//error en doc
         "hijo": ["fisica1", "analisis1"],
         "cat": "C",
-        "nombre":"",
+        "nombre":"Mecánica I",
         "profesor":"",
-        "creditos":"",
-        "semestre":"",
+        "creditos":"7,5",
+        "semestre":"III",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -147,21 +147,21 @@ let materiasind = [
         "id": "cad",
         "hijo": [],
         "cat": "C",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
+        "nombre":"Laboratorio CAD",
+        "profesor":"Daniel Larnaudie",
+        "creditos":"6",
+        "semestre":"III",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
-        "id": "labInd",
+        "id": "labInd",//falta
         "hijo": [],
         "cat": "E",
-        "nombre":"",
+        "nombre":"Laboratorio I Industrial",
         "profesor":"",
-        "creditos":"",
-        "semestre":"",
+        "creditos":"6",
+        "semestre":"III",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -169,10 +169,10 @@ let materiasind = [
         "id": "ch1",
         "hijo": [],
         "cat": "G",
-        "nombre":"",
+        "nombre":"Ciencias Humanas I",
         "profesor":"",
-        "creditos":"",
-        "semestre":"",
+        "creditos":"4,5",
+        "semestre":"III",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -180,33 +180,33 @@ let materiasind = [
         "id": "prob",
         "hijo": ["analisis2"],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "nombre":"Probabilidad y estadística",
+        "profesor":"José Díaz Milesi",
+        "creditos":"7,5",
+        "semestre":"IV",
+        "exonerable":"Se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
         "id": "mecanica2",
         "hijo": ["mecanica1"],
         "cat": "C",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "nombre":"Mecánica II",
+        "profesor":"Carlos Brun",
+        "creditos":"7,5",
+        "semestre":"IV",
+        "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
         "id": "termodinamica",
         "hijo": ["analisis1"],
         "cat": "E",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "nombre":"Termodinámica",
+        "profesor":"Gerardo Beltrame ",
+        "creditos":"7,5",
+        "semestre":"IV",
+        "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
