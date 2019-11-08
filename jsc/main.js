@@ -158,7 +158,7 @@ let materiasciv = [
     },
     {
         "id": "itnrotermo",//falta
-        "hijo": [],
+        "hijo": ["analisis1"],
         "cat": "E",
         "nombre":"Laboratorio I Industrial", //skere
         "profesor":"",
@@ -312,7 +312,7 @@ let materiasciv = [
     },
     {
         "id": "lbcivil2",
-        "hijo": ["lbcivil1"],
+        "hijo": [],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -446,7 +446,7 @@ let materiasciv = [
     },
     {
         "id": "horm2",
-        "hijo": ["horm","resmat3"],
+        "hijo": ["horm","resMat3"],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -558,7 +558,7 @@ let materiasciv = [
     },
     {
         "id": "ingtranspor",
-        "hijo": ["trans","elcamino","resMat4","horm2"],
+        "hijo": ["trans"],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -581,7 +581,7 @@ let materiasciv = [
 
     {
         "id": "proyCiv",
-        "hijo": ["plomeria2", "maq3"],
+        "hijo": ["plomeria2","elcamino","resMat4","horm2" ],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -2699,7 +2699,7 @@ mouseTarget[55].addEventListener("mouseleave", e => {
 mouseTarget[55].addEventListener("click", event => {
     informar(mouseTarget[55].id);
 });
-if(htmlid=="Industrial"){
+if(htmlid=="Industrial" || htmlid =="Civil"){
 //56
     mouseTarget[56].addEventListener("mouseenter", e => {
         pintar(mouseTarget[56].id);
