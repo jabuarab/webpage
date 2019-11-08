@@ -155,10 +155,10 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "labInd",//falta
+        "id": "itnrotermo",//falta
         "hijo": [],
         "cat": "E",
-        "nombre":"Laboratorio I Industrial",
+        "nombre":"Laboratorio I Industrial", //skere
         "profesor":"",
         "creditos":"6",
         "semestre":"III",
@@ -199,14 +199,14 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "termodinamica",
-        "hijo": ["analisis1"],
+        "id": "procontru1",
+        "hijo": [],
         "cat": "E",
-        "nombre":"Termodinámica",
-        "profesor":"Gerardo Beltrame ",
-        "creditos":"7,5",
+        "nombre":"",
+        "profesor":" ",
+        "creditos":"6",
         "semestre":"IV",
-        "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
@@ -221,8 +221,8 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "ayudaTecnica",
-        "hijo": ["cad"],
+        "id": "lbcivil1",
+        "hijo": [],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -265,8 +265,8 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "electroMag",
-        "hijo": ["fisica2", "analisis3"],
+        "id": "hidro",
+        "hijo": ["itnrotermo", "analisis3"],
         "cat": "C",
         "nombre":"",
         "profesor":"",
@@ -309,8 +309,8 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "labInd2",
-        "hijo": ["labInd"],
+        "id": "lbcivil2",
+        "hijo": ["lbcivil1"],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -331,30 +331,8 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "ivestOper2",
-        "hijo": ["ivestOper"],
-        "cat": "C",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
-        "descripcion":""
-    },
-    {
-        "id": "Electrotecnia1",
-        "hijo": ["electroMag"],
-        "cat": "C",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
-        "descripcion":""
-    },
-    {
-        "id": "mecFludis",
-        "hijo": ["analisis3", "pasantia1", "termodinamica"],
+        "id": "topocart",
+        "hijo": [""],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -364,8 +342,30 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "Metalurgia",
-        "hijo": ["ceinIngMat"],
+        "id": "hidrolog",
+        "hijo": ["hidro"],
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
+    },
+    {
+        "id": "mecsuelo",
+        "hijo": ["resMat"],
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
+    },
+    {
+        "id": "resMat3",
+        "hijo": ["resMat2","mecanica2"],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -374,6 +374,17 @@ let materiasind = [
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
 
+    },
+    {
+        "id": "horm",
+        "hijo": ["pasantia1","resMat2","ceinIngMat"],
+        "cat": "E",
+        "nombre":"",
+        "profesor":"",
+        "creditos":"",
+        "semestre":"",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
     },
     {
         "id": "teologia",
@@ -399,8 +410,8 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "operProd1",
-        "hijo": ["ivestOper"],
+        "id": "mecsuelo2",
+        "hijo": ["mecsuelo"],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -410,8 +421,8 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "Electrotecnia2",
-        "hijo": ["Electrotecnia1"],
+        "id": "resMat4",
+        "hijo": ["resMat3"],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -432,8 +443,8 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "transfCalor",
-        "hijo": ["termodinamica"],
+        "id": "horm2",
+        "hijo": ["horm","resmat3"],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -453,22 +464,11 @@ let materiasind = [
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
-    {
-        "id": "maq1",
-        "hijo": ["mecFludis", "mecanica2"],
-        "cat": "E",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
-        "descripcion":""
 
-    },
 
     {
-        "id": "maq2",
-        "hijo": ["pasantia2", "transfCalor"],
+        "id": "plomeria1",
+        "hijo": ["hidro",],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -478,8 +478,8 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "Electronica",
-        "hijo": ["electroMag"],
+        "id": "elcamino",
+        "hijo": ["mecsuelo2","topocart"],
         "cat": "C",
         "nombre":"",
         "profesor":"",
@@ -489,7 +489,7 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "prosUnitarios",
+        "id": "trans",
         "hijo": ["funQui"],
         "cat": "E",
         "nombre":"",
@@ -500,8 +500,8 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "labInd3",
-        "hijo": ["labInd2"],
+        "id": "lbcivil3",
+        "hijo": ["lbcivil2"],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -522,8 +522,8 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "autoControlIndustrial",
-        "hijo": ["Electronica"],
+        "id": "plomeria2",
+        "hijo": ["plomeria1","hidrolog","pasantia2"],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -533,8 +533,8 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "diseElementMaquinas",
-        "hijo": ["resMat2"],
+        "id": "estrucmetalywood",
+        "hijo": ["resMat4"],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -555,8 +555,8 @@ let materiasind = [
         "descripcion":""
     },
     {
-        "id": "maq3",
-        "hijo": ["maq2"],
+        "id": "ingtranspor",
+        "hijo": ["trans","elcamino","resMat4","horm2"],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -578,8 +578,8 @@ let materiasind = [
     },
 
     {
-        "id": "proyInd",
-        "hijo": ["Electrotecnia2", "maq3"],
+        "id": "proyCiv",
+        "hijo": ["plomeria2", "maq3"],
         "cat": "E",
         "nombre":"",
         "profesor":"",
