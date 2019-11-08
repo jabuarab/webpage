@@ -2534,23 +2534,22 @@ function filtro(id){
         if (materias[i].cat=="E" && materias[i].cat==a){
             document.getElementById(materias[i].id).style.backgroundColor="rgba(0,200,0,0.5)";
             document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.2rem rgba(033,231,0,0.5)";
-            console.log("verde");
+
         }
         else if (materias[i].cat=="G" && materias[i].cat==a){
             document.getElementById(materias[i].id).style.backgroundColor="rgba(23,162,184,0.5)";
             document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.2rem rgba(58,176,195,0.5)";
-        console.log("azul");
+
         }
         else if (materias[i].cat=="C" && materias[i].cat==a){
             document.getElementById(materias[i].id).style.backgroundColor="rgba(255,190,7,0.5)";
             document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.2rem rgba(255,231,130,0.5)";
-            console.log("amarillo");
+
         }
-        console.log("estoyaca")
+
         }
         else if (!staticbool) {
-            console.log(i)
-            console.log(materias)
+
             document.getElementById(materias[i].id).style.backgroundColor = "#f8f9fa";
             document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.0rem rgba(216,217,219,0.5)";
             
@@ -2571,7 +2570,7 @@ if(staticbool){
             for (j = 0; j < materias[i].hijo.length; j++) {
                 document.getElementById(idpadre).style.backgroundColor ="#e2e6ea"
                 if (materias[i].hijo[j] !== null) {
-                    console.log("pinta");
+
                     document.getElementById(materias[i].hijo[j]).style.backgroundColor = "rgba(255,99,71,0.5)";
                     document.getElementById(materias[i].hijo[j]).style.boxShadow = "0px 0px 0px 0.2rem rgba(220,20,60,0.5)";
                 }
@@ -2587,7 +2586,7 @@ if (staticbool) {
             for (j = 0; j < materias[i].hijo.length; j++) {
                 document.getElementById(idpadre).style.backgroundColor ="#f8f9fa"
                 if (materias[i].hijo[j] !== null){
-                    console.log("despinta");
+
                     document.getElementById(materias[i].id).style.backgroundColor = "#f8f9fa";
                     document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.0rem rgba(216,217,219,0.5)";
                     document.getElementById(materias[i].hijo[j]).style.backgroundColor = "#f8f9fa";
