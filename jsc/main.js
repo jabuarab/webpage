@@ -635,6 +635,7 @@ let materiasind = [
         "profesor":"José Díaz Milesi",
         "creditos":"9",
         "semestre":"II",
+        "dicta":"Se dicta en todos los semestres",
         "exonerable":"Se exonera parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -646,6 +647,7 @@ let materiasind = [
         "profesor":"José Díaz Milesi",
         "creditos":"9",
         "semestre":"I",
+        "dicta":"Se dicta en todos los semestres",
         "exonerable":"Se exonera parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -657,6 +659,7 @@ let materiasind = [
         "profesor":"Alfredo Piria",
         "creditos":"9",
         "semestre":"I",
+        "dicta":"Se dicta en todos los semestres",
         "exonerable":"Se exonera parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -668,6 +671,7 @@ let materiasind = [
         "profesor":"Juan Pablo Fossati",
         "creditos":"7,5",
         "semestre":"I",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"No es exonerable",// "se exonera parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -679,6 +683,7 @@ let materiasind = [
         "profesor":"Gustavo Compagnone",
         "creditos":"6",
         "semestre":"I",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"Se exonera totalmente con nota 6",// "se exonera parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -690,6 +695,7 @@ let materiasind = [
         "profesor":"Adrián Santilli",
         "creditos":"6",
         "semestre":"I",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"Se exonera totalmente con nota 6",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -701,6 +707,7 @@ let materiasind = [
         "profesor":"Alfredo Piria",
         "creditos":"9",
         "semestre":"II",
+        "dicta":"Se dicta en todos los semestres",
         "exonerable":"se exonera parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -712,6 +719,7 @@ let materiasind = [
         "profesor":"Juan Pablo Fossati",
         "creditos":"7,5",
         "semestre":"II",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"No es exonerable",// "se exonera parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -723,6 +731,7 @@ let materiasind = [
         "profesor":"Blas Melissari",
         "creditos":"6",
         "semestre":"II",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -734,6 +743,7 @@ let materiasind = [
         "profesor":"Laura Luzuriaga",
         "creditos":"6",
         "semestre":"II",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -745,6 +755,7 @@ let materiasind = [
         "profesor":"",//falta
         "creditos":"6",
         "semestre":"III",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"No es exonerable",// "se exonera parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -756,6 +767,7 @@ let materiasind = [
         "profesor":"José Díaz Milesi ",
         "creditos":"9",
         "semestre":"III",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"se exonera parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -767,6 +779,7 @@ let materiasind = [
         "profesor":"Carlos Brun",
         "creditos":"7,5",
         "semestre":"III",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"No es exonerable",// "se exonera parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -778,6 +791,7 @@ let materiasind = [
         "profesor":"Daniel Larnaudie",
         "creditos":"6",
         "semestre":"III",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"No es exonerable",// "se exonera parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -789,6 +803,7 @@ let materiasind = [
         "profesor":"Diego Moratorio y Sofía Teixeira",
         "creditos":"6",
         "semestre":"III",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"Se exonera totalmente con nota 6",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -800,6 +815,7 @@ let materiasind = [
         "profesor":"Fernando Otero",
         "creditos":"4,5",
         "semestre":"III",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -811,6 +827,7 @@ let materiasind = [
         "profesor":"José Díaz Milesi",
         "creditos":"7,5",
         "semestre":"IV",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"Se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -822,6 +839,7 @@ let materiasind = [
         "profesor":"Carlos Brun",
         "creditos":"7,5",
         "semestre":"IV",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -833,6 +851,7 @@ let materiasind = [
         "profesor":"Gerardo Beltrame ",
         "creditos":"7,5",
         "semestre":"IV",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -844,6 +863,7 @@ let materiasind = [
         "profesor":"Eduardo Lurner",
         "creditos":"6",
         "semestre":"IV",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -855,6 +875,7 @@ let materiasind = [
         "profesor":"Ricardo Cosentino",
         "creditos":"3",
         "semestre":"IV",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -866,6 +887,7 @@ let materiasind = [
         "profesor":"Heber Francia",
         "creditos":"6",
         "semestre":"IV",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -877,6 +899,7 @@ let materiasind = [
         "profesor":"María del Huerto Prato",
         "creditos":"3",
         "semestre":"IV",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -888,6 +911,7 @@ let materiasind = [
         "profesor":"Claudio Ruibal",
         "creditos":"6",
         "semestre":"V",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -899,6 +923,7 @@ let materiasind = [
         "profesor":"Gerardo Beltrame",
         "creditos":"7,5",
         "semestre":"V",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -909,7 +934,8 @@ let materiasind = [
         "nombre":"Pasantia 1",
         "profesor":"",
         "creditos":"",
-        "semestre":"",
+        "semestre":"V",
+        "dicta":"",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -921,6 +947,7 @@ let materiasind = [
         "profesor":"Adrián Santilli",
         "creditos":"6",
         "semestre":"V",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -932,6 +959,7 @@ let materiasind = [
         "profesor":"Manuel Vega Utrera",
         "creditos":"6",
         "semestre":"V",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -943,6 +971,7 @@ let materiasind = [
         "profesor":"Marcelo Castelli",
         "creditos":"6",
         "semestre":"V",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"Se exonera totalmente con nota 6",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -954,6 +983,7 @@ let materiasind = [
         "profesor":"",
         "creditos":"6",
         "semestre":"V",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -965,6 +995,7 @@ let materiasind = [
         "profesor":"Claudio Ruibal",
         "creditos":"6",
         "semestre":"VI",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -976,6 +1007,7 @@ let materiasind = [
         "profesor":"Mauricio Riera",
         "creditos":"7,5",
         "semestre":"VI",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -987,6 +1019,7 @@ let materiasind = [
         "profesor":"Gerardo Beltrame",
         "creditos":"7,5",
         "semestre":"VI",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -998,6 +1031,7 @@ let materiasind = [
         "profesor":"Manuel Vega Utrera",
         "creditos":"6",
         "semestre":"VI",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
 
@@ -1010,6 +1044,7 @@ let materiasind = [
         "profesor":"Juan Carlos Carrasco",
         "creditos":"4,5",
         "semestre":"VI",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1022,6 +1057,7 @@ let materiasind = [
         "profesor":"Darío Alentorn",
         "creditos":"4,5",
         "semestre":"VII",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1033,6 +1069,7 @@ let materiasind = [
         "profesor":"Martín Tanco",
         "creditos":"4,5",
         "semestre":"VII",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1044,6 +1081,7 @@ let materiasind = [
         "profesor":"Mauricio Riera",
         "creditos":"7,5",
         "semestre":"VII",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1054,7 +1092,8 @@ let materiasind = [
         "nombre":"Pasantia 2",
         "profesor":"",
         "creditos":"",
-        "semestre":"",
+        "semestre":"VII",
+        "dicta":"",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1066,6 +1105,7 @@ let materiasind = [
         "profesor":"Miguel Baldriz Chouhy",
         "creditos":"4,5",
         "semestre":"VII",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1077,6 +1117,7 @@ let materiasind = [
         "profesor":"Viviana Rocco",
         "creditos":"4,5",
         "semestre":"VII",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1088,6 +1129,7 @@ let materiasind = [
         "profesor":"Marcelo Schimchak",
         "creditos":"7,5",
         "semestre":"VII",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
 
@@ -1101,6 +1143,7 @@ let materiasind = [
         "profesor":"Miguel Baldriz Chouhy",
         "creditos":"6",
         "semestre":"VIII",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1112,6 +1155,7 @@ let materiasind = [
         "profesor":"",
         "creditos":"7,5",
         "semestre":"VIII",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1123,6 +1167,7 @@ let materiasind = [
         "profesor":"Yamandú Rodríguez",
         "creditos":"6",
         "semestre":"VIII",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1134,6 +1179,7 @@ let materiasind = [
         "profesor":"Marcelo Castelli",
         "creditos":"6",
         "semestre":"VIII",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"Se exonera totalmente con nota 6",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1145,6 +1191,7 @@ let materiasind = [
         "profesor":"Silvia Facal",
         "creditos":"4,5",
         "semestre":"VIII",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1156,6 +1203,7 @@ let materiasind = [
         "profesor":"Ricardo Gonzalez",
         "creditos":"6",
         "semestre":"IX",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1167,6 +1215,7 @@ let materiasind = [
         "profesor":"Oliver Kraus",
         "creditos":"7,5",
         "semestre":"IX",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1177,7 +1226,8 @@ let materiasind = [
         "nombre":"Pasantia 3",
         "profesor":"",
         "creditos":"",
-        "semestre":"",
+        "semestre":"IX",
+        "dicta":"",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1189,6 +1239,7 @@ let materiasind = [
         "profesor":"Miguel Angel Causa y Hector Tosar",
         "creditos":"7,5",
         "semestre":"IX",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1200,6 +1251,7 @@ let materiasind = [
         "profesor":"Marcos Rey",
         "creditos":"4,5",
         "semestre":"IX",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"Se exonera totalmente",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1212,6 +1264,7 @@ let materiasind = [
         "profesor":"Miguel Angel Causa, Juan Martínez Galán y Marcelo Castelli",
         "creditos":"24",
         "semestre":"X",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"No es exonerable",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1223,6 +1276,7 @@ let materiasind = [
         "profesor":"Fernando Requena",
         "creditos":"6",
         "semestre":"X",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
 
@@ -1235,6 +1289,7 @@ let materiasind = [
         "profesor":"Viviana Rocco",
         "creditos":"4,5",
         "semestre":"X",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1246,6 +1301,7 @@ let materiasind = [
         "profesor":"Manuel Vega Utrera y Juan Carlos Carrasco",
         "creditos":"6",
         "semestre":"X",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -1992,21 +2048,31 @@ if (idpadre != "cets"){
             }
             if(stringPrevias===" "){stringPrevias= " No tiene previas"}
 
-        	popup.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup\" class=\"btn-cerrar-popup\" onclick=\"cerrar()\"><i class=\"fa fa-times\"></i></button>\n" +
-                "          <h3>"+ materias[i].nombre+"</h3>\n" +
-                "          <span>Profesor: "+materias[i].profesor+"</span>\n" +
-                            "<div></div>"+
-                "          <span>Cantidad de Creditos: "+materias[i].creditos +"</span>\n" +
-                "<div></div>"+
-                "          <span>Semestre: "+materias[i].semestre +"</span>\n" +
-                "<div></div>"+
-                "          <span>Previas: "+stringPrevias+"</span>\n" +
-                "<div></div>"+
-                "          <span>Exonerable: "+materias[i].exonerable+"</span>\n" +
-                "<div></div>"+
-                "          <span>Descripcion: "+materias[i].descripcion+"</span>\n"
-            ;
+            if(materias[i].profesor === "" && materias[i].dicta === "" && stringPrevias === " No tiene previas" && materias[i].exonerable === ""){
+                popup.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup\" class=\"btn-cerrar-popup\" onclick=\"cerrar()\"><i class=\"fa fa-times\"></i></button>\n" +
+                    "          <h3>"+ materias[i].nombre+"</h3>\n" +                    
+                    "          <span>Cantidad de Creditos: "+materias[i].creditos +"</span>\n" +
+                    "<div></div>"+
+                    "          <span>Descripcion: "+materias[i].descripcion+"</span>\n"
+                ;
 
+            }
+            else{
+            	popup.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup\" class=\"btn-cerrar-popup\" onclick=\"cerrar()\"><i class=\"fa fa-times\"></i></button>\n" +
+                    "          <h3>"+ materias[i].nombre+"</h3>\n" +
+                    "          <span>Profesor: "+materias[i].profesor+"</span>\n" +
+                                "<div></div>"+
+                    "          <span>Cantidad de Creditos: "+materias[i].creditos +"</span>\n" +
+                    "<div></div>"+
+                    "          <span>Semestre: "+materias[i].dicta +"</span>\n" +
+                    "<div></div>"+
+                    "          <span>Previas: "+stringPrevias+"</span>\n" +
+                    "<div></div>"+
+                    "          <span>Exonerable: "+materias[i].exonerable+"</span>\n" +
+                    "<div></div>"+
+                    "          <span>Descripcion: "+materias[i].descripcion+"</span>\n"
+                ;
+            }    
 
         }	
 

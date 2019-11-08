@@ -18,7 +18,17 @@ body{
 		max-width: 1100px;
 	}
 	#conteinercets{
-		margin-left: -815px;
+		margin-left: -818px;
+		margin-top: 480px;
+	}
+}
+
+@media screen and (max-width: 1160px){ 
+	.row{
+		max-width: 1100px;
+	}
+	#conteinercets{
+		margin-left: -748px;
 		margin-top: 480px;
 	}
 }
@@ -33,13 +43,23 @@ body{
 	}
 }
 
-@media screen and (max-width: 1030px){ 
+@media screen and (max-width: 1024px){ 
 	.row{
-		max-width: 900px;
+		max-width: 950px;
 	}
 	#conteinercets{
-		margin-left: -879px;
-		margin-top: 610px;
+		margin-left: -870px;
+		margin-top: 470px;
+	}
+}
+
+@media screen and (max-width: 999px){ 
+	.row{
+		max-width: 950px;
+	}
+	#conteinercets{
+		margin-left: -750px;
+		margin-top: 470px;
 	}
 }
 
@@ -48,7 +68,7 @@ body{
 		max-width: 800px;
 	}
 	#conteinercets{
-		margin-left: -996px;
+		margin-left: -880px;
 		margin-top: 610px;
 	}
 }
@@ -57,23 +77,39 @@ body{
 	.row{
 		max-width: 700px;
 	}
+	#conteinercets{
+		margin-left: -998px;
+		margin-top: 610px;
+	}
+
+}
+
+@media screen and (max-width: 770px){ 
+	.row{
+		max-width: 700px;
+	}
+	#conteinercets{
+		margin-left: -908px;
+		margin-top: 610px;
+	}
 
 }
 
 @media screen and (max-width: 730px){ 
 	.row{
-		max-width: 600px;
+		max-width: 650px;
 	}
 	#backgfil{
 		margin-left: -140px;
 	}
 	#conteinercets{
-		margin-left: -525px;
-		margin-top: 460px;
+		margin-left: -255px;
+		margin-top: 0px;
 	}
+
 }
 
-@media screen and (max-width: 630px){ 
+@media screen and (max-width: 650px){ 
 	.row{
 		max-width: 500px;
 	}
@@ -81,8 +117,20 @@ body{
 		margin-left: -140px;
 	}
 	#conteinercets{
-		margin-left: -525;
-		margin-top: 370px;
+		margin-left: -625;
+		margin-top: 70px;
+	}
+	#popup{
+		width:90%;
+	}
+	#popup2{
+		width:90%;
+	}
+	#btn-cerrar-popup{
+		left: 0px;
+	}
+	#btn-cerrar-popup2{
+		left: 00px;
 	}
 }
 
@@ -94,13 +142,25 @@ body{
 		margin-left: -140px;
 	}
 	#conteinercets{
-		margin-left: -520px;
+		margin-left: -322px;
 		margin-top: 370px;
+	}
+	#popup{
+		width:90%;
+	}
+	#btn-cerrar-popup{
+		left: 0px;
+	}
+	#btn-cerrar-popup2{
+		left: 00px;
+	}
+	#popup2{
+		width:90%;
 	}
 
 }
 
-@media screen and (max-width: 376px){ 
+@media screen and (max-width: 375px){ 
 	.row{
 		max-width: 300px;
 	}
@@ -108,14 +168,23 @@ body{
 		margin-left: -140px;
 	}
 	#conteinercets{
-		margin-left: -400px;
-		margin-top: 470px;
+		margin-left: -140px;
+		margin-top: 10px;
 	}
-	#cets{
-		width: 200px;
+	button#cets {
+    max-width: -webkit-fill-available;
 	}
-	body{
-		background-color: black;
+	#popup{
+		width:90%;
+	}
+	#btn-cerrar-popup{
+		left: 00px;
+	}
+	#btn-cerrar-popup2{
+		left: 00px;
+	}
+	#popup2{
+		width:90%;
 	}
 
 }

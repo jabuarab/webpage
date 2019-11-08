@@ -8,6 +8,7 @@ let materiasind = [
         "profesor":"José Díaz Milesi",
         "creditos":"9",
         "semestre":"II",
+        "dicta":"Se dicta en todos los semestres",
         "exonerable":"Se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -19,6 +20,7 @@ let materiasind = [
         "profesor":"José Díaz Milesi",
         "creditos":"9",
         "semestre":"I",
+        "dicta":"Se dicta en todos los semestres",
         "exonerable":"Se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -30,6 +32,7 @@ let materiasind = [
         "profesor":"Alfredo Piria",
         "creditos":"9",
         "semestre":"I",
+        "dicta":"Se dicta en todos los semestres",
         "exonerable":"Se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -41,6 +44,7 @@ let materiasind = [
         "profesor":"Juan Pablo Fossati",
         "creditos":"7,5",
         "semestre":"I",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -52,6 +56,7 @@ let materiasind = [
         "profesor":"Gustavo Compagnone",
         "creditos":"6",
         "semestre":"I",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -63,6 +68,7 @@ let materiasind = [
         "profesor":"Adrián Santilli",
         "creditos":"6",
         "semestre":"I",
+        "dicta":"Se dicta en semestre impar",
         "exonerable":"Se exonera totalmente con nota 6",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -74,6 +80,7 @@ let materiasind = [
         "profesor":"Alfredo Piria",
         "creditos":"9",
         "semestre":"II",
+        "dicta":"Se dicta en todos los semestres",
         "exonerable":"se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -85,6 +92,7 @@ let materiasind = [
         "profesor":"Juan Pablo Fossati",
         "creditos":"7,5",
         "semestre":"II",
+        "dicta":"Se dicta en semestre par",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
