@@ -2060,17 +2060,18 @@ if (idpadre != "cets"){
             else{
             	popup.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup\" class=\"btn-cerrar-popup\" onclick=\"cerrar()\"><i class=\"fa fa-times\"></i></button>\n" +
                     "          <h3>"+ materias[i].nombre+"</h3>\n" +
-                    "          <span>Profesor: "+materias[i].profesor+"</span>\n" +
+
+                    "          <span style='font-weight: bold'>Profesor: </span>" +"<span>"+materias[i].profesor+"</span>\n" +
                                 "<div></div>"+
-                    "          <span>Cantidad de Creditos: "+materias[i].creditos +"</span>\n" +
+                    "          <span style='font-weight: bold'>Cantidad de Creditos: </span>" +"<span>"+materias[i].creditos +"</span>\n" +
                     "<div></div>"+
-                    "          <span>Semestre: "+materias[i].dicta +"</span>\n" +
+                    "          <span style='font-weight: bold'>Semestre: </span>" +"<span>"+materias[i].dicta +"</span>\n" +
                     "<div></div>"+
-                    "          <span>Previas: "+stringPrevias+"</span>\n" +
+                    "          <span style='font-weight: bold'>Previas:</span>" +"<span>"+stringPrevias+"</span>\n" +
                     "<div></div>"+
-                    "          <span>Exonerable: "+materias[i].exonerable+"</span>\n" +
+                    "          <span style='font-weight: bold'>Exonerable: </span>" +"<span>"+materias[i].exonerable+"</span>\n" +
                     "<div></div>"+
-                    "          <span>Descripcion: "+materias[i].descripcion+"</span>\n"
+                    "          <span style='font-weight: bold'>Descripcion: </span>" +"<span>"+materias[i].descripcion+"</span>\n"
                 ;
             }    
 
