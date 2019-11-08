@@ -9,7 +9,6 @@ let materiasind = [
         "profesor":"José Díaz Milesi",
         "creditos":"9",
         "semestre":"II",
-        "previas":"Analisis I",
         "exonerable":"Se exonera parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -281,7 +280,7 @@ let materiasind = [
         "id": "pasantia1",//no necesita datos a lo sumo una descripcion
         "hijo": [],
         "cat": "G",
-        "nombre":"",
+        "nombre":"Pasantia 1",
         "profesor":"",
         "creditos":"",
         "semestre":"",
@@ -426,7 +425,7 @@ let materiasind = [
         "id": "pasantia2",//no se necesitan datos quisas descripcion
         "hijo": [],
         "cat": "G",
-        "nombre":"",
+        "nombre":"Pasantia 2",
         "profesor":"",
         "creditos":"",
         "semestre":"",
@@ -549,7 +548,7 @@ let materiasind = [
         "id": "pasantia3",//no necesitamos datos capas alguna descripcion
         "hijo": [],
         "cat": "G",
-        "nombre":"",
+        "nombre":"Pasantia 3",
         "profesor":"",
         "creditos":"",
         "semestre":"",
@@ -896,7 +895,7 @@ let materiasinf=[
         "id": "pasantia1",
         "hijo": [],
         "cat": "G",
-        "nombre":"",
+        "nombre":"Pasantia 1",
         "profesor":"",
         "creditos":"",
         "semestre":"",
@@ -1347,19 +1346,36 @@ if (idpadre != "cets"){
         	btnCerrarPopup = document.getElementById('btn-cerrar-popup');
         	overlay.classList.add('active');
         	popup.classList.add('active');
+            stringPrevias = " ";
+            var hij=0;
+            for (j = 0; j < materias.length; j++){        
+                for (k = 0; k < materias[i].hijo.length; k++){
+                    if(materias[j].id === materias[i].hijo[k]){
+                        if(hij === 0){
+                            stringPrevias=stringPrevias+" "+materias[j].nombre;
+                        }
+                        else{
+                            stringPrevias=stringPrevias+" , "+materias[j].nombre;
+                        }
+                        hij++
+                    }
+                }
+            }
+            if(stringPrevias===" "){stringPrevias= " No tiene previas"}
+
         	popup.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup\" class=\"btn-cerrar-popup\" onclick=\"cerrar()\"><i class=\"fa fa-times\"></i></button>\n" +
                 "          <h3>"+ materias[i].nombre+"</h3>\n" +
-                "          <span>Profesor:"+materias[i].profesor+"</span>\n" +
+                "          <span>Profesor: "+materias[i].profesor+"</span>\n" +
                             "<div></div>"+
-                "          <span>Cantidad de Creditos:"+materias[i].creditos +"</span>\n" +
+                "          <span>Cantidad de Creditos: "+materias[i].creditos +"</span>\n" +
                 "<div></div>"+
-                "          <span>Semestre:"+materias[i].semestre +"</span>\n" +
+                "          <span>Semestre: "+materias[i].semestre +"</span>\n" +
                 "<div></div>"+
-                "          <span>Previas:"+materias[i].previas+"</span>\n" +
+                "          <span>Previas: "+stringPrevias+"</span>\n" +
                 "<div></div>"+
-                "          <span>Exonerable:"+materias[i].exonerable+"</span>\n" +
+                "          <span>Exonerable: "+materias[i].exonerable+"</span>\n" +
                 "<div></div>"+
-                "          <span>Descripcion:"+materias[i].descripcion+"</span>\n"
+                "          <span>Descripcion: "+materias[i].descripcion+"</span>\n"
             ;
 
 
