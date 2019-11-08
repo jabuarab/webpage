@@ -117,7 +117,7 @@ let materiasciv = [
         "hijo": ["analisis2", "gal2"],
         "cat": "G",
         "nombre":"Cálculo Numérico",
-        "profesor":"",//falta
+        "profesor":"Maximiliano Stock",//falta
         "creditos":"6",
         "semestre":"III",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
@@ -752,7 +752,7 @@ let materiasind = [
         "hijo": ["analisis2", "gal2"],
         "cat": "G",
         "nombre":"Cálculo Numérico",
-        "profesor":"",//falta
+        "profesor":"Maximiliano Stock",//falta
         "creditos":"6",
         "semestre":"III",
         "dicta":"Se dicta en semestre impar",
@@ -2059,19 +2059,19 @@ if (idpadre != "cets"){
             }
             else{
             	popup.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup\" class=\"btn-cerrar-popup\" onclick=\"cerrar()\"><i class=\"fa fa-times\"></i></button>\n" +
-                    "          <h3>"+ materias[i].nombre+"</h3>\n" +
+                    "          <h3 style='Color: rgb(37,50,104)'>"+ materias[i].nombre+"</h3>\n" +
 
-                    "          <span style='font-weight: bold'>Profesor: </span>" +"<span>"+materias[i].profesor+"</span>\n" +
+                    "          <span style='font-weight: bold; Color: rgb(37,50,104)'>Profesor: </span>" +"<span style='Color: rgb(37,50,134)'>"+materias[i].profesor+"</span>\n" +
                                 "<div></div>"+
-                    "          <span style='font-weight: bold'>Cantidad de Creditos: </span>" +"<span>"+materias[i].creditos +"</span>\n" +
+                    "          <span style='font-weight: bold; Color: rgb(37,50,104)'>Cantidad de Creditos: </span>" +"<span style='Color: rgb(37,50,134)'>"+materias[i].creditos +"</span>\n" +
                     "<div></div>"+
-                    "          <span style='font-weight: bold'>Semestre: </span>" +"<span>"+materias[i].dicta +"</span>\n" +
+                    "          <span style='font-weight: bold; Color: rgb(37,50,104)'>Semestre: </span>" +"<span style='Color: rgb(37,50,134)'>"+materias[i].dicta +"</span>\n" +
                     "<div></div>"+
-                    "          <span style='font-weight: bold'>Previas:</span>" +"<span>"+stringPrevias+"</span>\n" +
+                    "          <span style='font-weight: bold; Color: rgb(37,50,104)'>Previas:</span>" +"<span style='Color: rgb(37,50,134)'>"+stringPrevias+"</span>\n" +
                     "<div></div>"+
-                    "          <span style='font-weight: bold'>Exonerable: </span>" +"<span>"+materias[i].exonerable+"</span>\n" +
+                    "          <span style='font-weight: bold; Color: rgb(37,50,104)'>Exonerable: </span>" +"<span style='Color: rgb(37,50,134)'>"+materias[i].exonerable+"</span>\n" +
                     "<div></div>"+
-                    "          <span style='font-weight: bold'>Descripcion: </span>" +"<span>"+materias[i].descripcion+"</span>\n"
+                    "          <span style='font-weight: bold; Color: rgb(37,50,104)'>Descripcion: </span>" +"<span style='Color: rgb(37,50,134)'>"+materias[i].descripcion+"</span>\n"
                 ;
             }    
 
