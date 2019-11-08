@@ -302,7 +302,7 @@ div.row{
 	visibility: visible;
 }
 
-h3{
+.popup h3{
 	color: red
 }
 .popup h4{
@@ -329,9 +329,9 @@ h3{
 }
 .popup .btn-cerrar-popup{
 	font-size: 16px;
-	background-color: white;
+	background-color: rgba(0,0,0,0);
 	display: block;
-	color: red;
+	color: rgba(0,0,128,.8);
 	border: 0px;
 	position: relative;
 	left: 530px;
@@ -340,6 +340,10 @@ h3{
 
 .popup .btn-cerrar-popup hover{
 	color: black;
+}
+
+.btn-light{
+	background-color: rgb(255,247,239);
 }
 
 
@@ -375,6 +379,7 @@ h3{
 .popup.active{
 	opacity: 1;
 	transform: scale(1);
+	background-image: url("images/fondoBlanco.jpg");
 }
 
 .popup{
