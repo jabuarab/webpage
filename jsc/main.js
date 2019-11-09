@@ -325,7 +325,7 @@ let materiastel=[
     },    {
         "id": "medidaselectricas",
         "hijo": ["electroMag"],
-        "cat": "G",
+        "cat": "C",
         "nombre":"",
         "profesor":"",
         "creditos":"",
@@ -359,7 +359,7 @@ let materiastel=[
     {
         "id": "redes1",
         "hijo": ["sisdig2", "pasantia1"],
-        "cat": "E",
+        "cat": "C",
         "nombre":"",
         "profesor":"",
         "creditos":"",
@@ -2584,12 +2584,12 @@ if (staticbool) {
     for (i = 0; i < materias.length; i++) {
         if (materias[i].id === idpadre)
             for (j = 0; j < materias[i].hijo.length; j++) {
-                document.getElementById(idpadre).style.backgroundColor ="#f8f9fa"
+
                 if (materias[i].hijo[j] !== null){
 
-                    document.getElementById(materias[i].id).style.backgroundColor = "#f8f9fa";
+                    document.getElementById(materias[i].id).style.backgroundColor = "rgb(255, 247, 239)";
                     document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.0rem rgba(216,217,219,0.5)";
-                    document.getElementById(materias[i].hijo[j]).style.backgroundColor = "#f8f9fa";
+                    document.getElementById(materias[i].hijo[j]).style.backgroundColor = "rgb(255, 247, 239)";
                     document.getElementById(materias[i].hijo[j]).style.boxShadow = "0px 0px 0px 0.0rem rgba(216,217,219,0.5)";
                 }
             }
