@@ -130,7 +130,7 @@ let materiastel=[
         "cat": "C",
         "nombre":"Análisis Matemático III ",
         "profesor":"José Díaz Milesi ",
-        "creditos":"9",                             
+        "creditos":"9",
         "semestre":"III",
         "exonerable":"se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
@@ -2648,7 +2648,7 @@ if (idpadre != "cets"){
             }
             if(stringPrevias===" "){stringPrevias= " No tiene previas"}
 
-            if(materias[i].profesor === "" && materias[i].dicta === "" && stringPrevias === " No tiene previas" && materias[i].exonerable === ""){
+            if(materias[i].id === "pasantia1" || materias[i].id === "pasantia2" || materias[i].id === "pasantia3"){
                 popup.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup\" class=\"btn-cerrar-popup\" onclick=\"cerrar()\"><i class=\"fa fa-times\"></i></button>\n" +
                     "          <h3>"+ materias[i].nombre+"</h3>\n" +                    
                     "          <span>Cantidad de Creditos: "+materias[i].creditos +"</span>\n" +
