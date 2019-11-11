@@ -78,6 +78,9 @@ body{
 		margin-left: -880px;
 		margin-top: 610px;
 	}
+	button#cets {
+    max-width: 71%;
+	}
 }
 
 @media screen and (max-width: 830px){ 
@@ -87,6 +90,9 @@ body{
 	#conteinercets{
 		margin-left: -998px;
 		margin-top: 610px;
+	}
+	button#cets {
+    max-width: 92%;
 	}
 
 }

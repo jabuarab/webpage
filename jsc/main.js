@@ -2688,9 +2688,8 @@ if (idpadre != "cets"){
 
             
 
-            if(materias[i].profesor === "" && materias[i].dicta === "" && stringPrevias === " No tiene previas" && materias[i].exonerable === ""){
+            if(materias[i].profesor === "" && materias[i].dicta === "" && stringPrevias === " No tiene previas" && materias[i].exonerable === ""){}
             if(materias[i].id === "pasantia1" || materias[i].id === "pasantia2" || materias[i].id === "pasantia3"){
-
                 popup.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup\" class=\"btn-cerrar-popup\" onclick=\"cerrar()\"><i class=\"fa fa-times\"></i></button>\n" +
                     "          <h3>"+ materias[i].nombre+"</h3>\n" +                    
                     "          <span>Cantidad de Creditos: "+materias[i].creditos +"</span>\n" +
