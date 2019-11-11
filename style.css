@@ -11,6 +11,9 @@ body{
 	.row{
 		max-width: 1200px;
 	}
+	button#cets {
+    max-width: 50%;
+	}
 }
 
 @media screen and (max-width: 1230px){ 
@@ -21,6 +24,10 @@ body{
 		margin-left: -818px;
 		margin-top: 480px;
 	}
+	button#cets {
+    max-width: 50%;
+	}
+
 }
 
 @media screen and (max-width: 1160px){ 
@@ -71,6 +78,9 @@ body{
 		margin-left: -880px;
 		margin-top: 610px;
 	}
+	button#cets {
+    max-width: 71%;
+	}
 }
 
 @media screen and (max-width: 830px){ 
@@ -80,6 +90,9 @@ body{
 	#conteinercets{
 		margin-left: -998px;
 		margin-top: 610px;
+	}
+	button#cets {
+    max-width: 92%;
 	}
 
 }

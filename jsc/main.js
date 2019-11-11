@@ -638,6 +638,14 @@ let materiastel=[
         "dicta":"Se dicta en semestre par",
         "exonerable":"Se exonera con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
+    },
+    {
+        "id": "cets",
+        "hijo": [""],
+        "cat": "G",
+        "nombre":"CETS/IDIOMAS/MLE",
+        "creditos":"18",
+        "descripcion":""
     }
 ];
 
@@ -1263,6 +1271,14 @@ let materiasciv = [
         "creditos":"",
         "semestre":"",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
+    },
+    {
+        "id": "cets",
+        "hijo": [""],
+        "cat": "G",
+        "nombre":"CETS/IDIOMAS/MLE",
+        "creditos":"18",
         "descripcion":""
     }
 
@@ -1946,6 +1962,14 @@ let materiasind = [
         "exonerable":"Se exonera totalmente con nota 8",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
+    {
+        "id": "cets",
+        "hijo": [""],
+        "cat": "G",
+        "nombre":"CETS/IDIOMAS/MLE",
+        "creditos":"18",
+        "descripcion":""
+    }
 
 ];
 
@@ -2538,8 +2562,20 @@ let materiasinf=[
         "semestre":"",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
+    },
+    {
+        "id": "cets",
+        "hijo": [""],
+        "cat": "G",
+        "nombre":"CETS/IDIOMAS/MLE",
+        "creditos":"18",
+        "descripcion":""
     }
 ];
+
+
+
+
 
 htmlid= document.getElementsByTagName("html")[0].id;
 var materias
@@ -2672,7 +2708,9 @@ if (idpadre != "cets"){
         	var btnAbrirPopup = document.getElementById('idpadre'),
         	overlay = document.getElementById('overlay'),
         	popup = document.getElementById('popup'),
+            popup2 = document.getElementById('popup2')
         	btnCerrarPopup = document.getElementById('btn-cerrar-popup');
+            btnCerrarPopup2 = document.getElementById('btn-cerrar-popup2');
         	overlay.classList.add('active');
         	popup.classList.add('active');
             stringPrevias = " ";
@@ -2692,6 +2730,9 @@ if (idpadre != "cets"){
             }
             if(stringPrevias===" "){stringPrevias= " No tiene previas"}
 
+            
+
+            if(materias[i].profesor === "" && materias[i].dicta === "" && stringPrevias === " No tiene previas" && materias[i].exonerable === ""){}
             if(materias[i].id === "pasantia1" || materias[i].id === "pasantia2" || materias[i].id === "pasantia3"){
                 popup.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup\" class=\"btn-cerrar-popup\" onclick=\"cerrar()\"><i class=\"fa fa-times\"></i></button>\n" +
                     "          <h3>"+ materias[i].nombre+"</h3>\n" +                    
@@ -2725,10 +2766,12 @@ if (idpadre != "cets"){
 }
 if (idpadre == "cets") {
 			var btnAbrirPopup = document.getElementById('idpadre'),
-        	overlay = document.getElementById('overlay'),
-        	popup = document.getElementById('popup'),
-        	btnCerrarPopup = document.getElementById('btn-cerrar-popup');
+        	overlay2 = document.getElementById('overlay2'),
+        	popup2 = document.getElementById('popup2'),
+        	btnCerrarPopup2 = document.getElementById('btn-cerrar-popup2');
         	overlay.classList.add('active');
+            popup2.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup2\" class=\"btn-cerrar-popup\" onclick=\"cerrar2()\"><i class=\"fa fa-times\"></i></button>\n" +
+"          <h3 style='Color: rgb(37,50,104)'>"+ "CETS/IDIOMAS/LMS"+"</h3>\n" 
 
 
 }
