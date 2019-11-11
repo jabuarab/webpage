@@ -6,43 +6,43 @@ let materiastel=[
         "id": "analisis2",
         "hijo": ["analisis1"],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "nombre":"Analisis II",
+        "profesor":"Pepe Díaz Milesi",
+        "creditos":"9",
+        "semestre":"II",
+        "exonerable":"Se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
         "id": "analisis1",
         "hijo": [],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "nombre":"Analisis I",
+        "profesor":"José Díaz Milesi",
+        "creditos":"9",
+        "semestre":"I",
+        "exonerable":"Se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
-        "id": "gal1",
+        "id": "gal1",//falta datos exoneracion
         "hijo": [],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "nombre":"Geometría y Álgebra Lineal I",
+        "profesor":"Alfredo Piria",
+        "creditos":"9",
+        "semestre":"I",
+        "exonerable":"Se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
-        "id": "fisica1",
+        "id": "fisica1",//falta datos exoneracion
         "hijo": [],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
+        "nombre":"Física I",
+        "profesor":"Juan Pablo Fossati",
+        "creditos":"7,5",
+        "semestre":"I",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -50,10 +50,10 @@ let materiastel=[
         "id": "intRob",
         "hijo": [],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
+        "nombre":"Introducción a la Robótica",
+        "profesor":"Gustavo Compagnone",//esto esta mal
+        "creditos":"6",
+        "semestre":"I",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -61,11 +61,11 @@ let materiastel=[
         "id": "intIng",
         "hijo": [],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "nombre":"Introducción a la Ingeniería",
+        "profesor":"Adrián Santilli",
+        "creditos":"6",
+        "semestre":"I",
+        "exonerable":"Se exonera totalmente con nota 6",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
@@ -114,14 +114,14 @@ let materiastel=[
         "descripcion":""
     },
     {
-        "id": "caluclo",
-        "hijo": ["analisis2", "gal2"],
+        "id": "gal2",
+        "hijo": ["gal1"],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
-        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "nombre":"Geometría y algebra lineal II",
+        "profesor":"Alfredo Piria",
+        "creditos":"9",
+        "semestre":"II",
+        "exonerable":"se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
@@ -139,10 +139,10 @@ let materiastel=[
         "id": "prog2",
         "hijo": ["prog1"],
         "cat": "C",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
+        "nombre":"Programacion II",
+        "profesor":"Daniel Pereda",
+        "creditos":"7,5",
+        "semestre":"II",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -325,7 +325,7 @@ let materiastel=[
     },    {
         "id": "medidaselectricas",
         "hijo": ["electroMag"],
-        "cat": "G",
+        "cat": "C",
         "nombre":"",
         "profesor":"",
         "creditos":"",
@@ -359,7 +359,7 @@ let materiastel=[
     {
         "id": "redes1",
         "hijo": ["sisdig2", "pasantia1"],
-        "cat": "E",
+        "cat": "C",
         "nombre":"",
         "profesor":"",
         "creditos":"",
@@ -611,7 +611,7 @@ let materiasciv = [
         "hijo": ["analisis1"],
         "cat": "G",
         "nombre":"Analisis II",
-        "profesor":"José Díaz Milesi",
+        "profesor":"Pepe Díaz Milesi",
         "creditos":"9",
         "semestre":"II",
         "exonerable":"Se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
@@ -655,7 +655,7 @@ let materiasciv = [
         "hijo": [],
         "cat": "G",
         "nombre":"Introducción a la Robótica",
-        "profesor":"Gustavo Compagnone",
+        "profesor":"Gustavo Compagnone",//esto esta mal
         "creditos":"6",
         "semestre":"I",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
@@ -1965,13 +1965,13 @@ let materiasinf=[
         "descripcion":""
     },
     {
-        "id": "fisica1",
+        "id": "fisica1",//falta datos exoneracion
         "hijo": [],
         "cat": "G",
-        "nombre":"",
-        "profesor":"",
-        "creditos":"",
-        "semestre":"",
+        "nombre":"Física I",
+        "profesor":"Juan Pablo Fossati",
+        "creditos":"7,5",
+        "semestre":"I",
         "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
@@ -2620,12 +2620,12 @@ if (staticbool) {
     for (i = 0; i < materias.length; i++) {
         if (materias[i].id === idpadre)
             for (j = 0; j < materias[i].hijo.length; j++) {
-                document.getElementById(idpadre).style.backgroundColor ="#f8f9fa"
+
                 if (materias[i].hijo[j] !== null){
 
-                    document.getElementById(materias[i].id).style.backgroundColor = "#f8f9fa";
+                    document.getElementById(materias[i].id).style.backgroundColor = "rgb(255, 247, 239)";
                     document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.0rem rgba(216,217,219,0.5)";
-                    document.getElementById(materias[i].hijo[j]).style.backgroundColor = "#f8f9fa";
+                    document.getElementById(materias[i].hijo[j]).style.backgroundColor = "rgb(255, 247, 239)";
                     document.getElementById(materias[i].hijo[j]).style.boxShadow = "0px 0px 0px 0.0rem rgba(216,217,219,0.5)";
                 }
             }
@@ -2689,6 +2689,8 @@ if (idpadre != "cets"){
             
 
             if(materias[i].profesor === "" && materias[i].dicta === "" && stringPrevias === " No tiene previas" && materias[i].exonerable === ""){
+            if(materias[i].id === "pasantia1" || materias[i].id === "pasantia2" || materias[i].id === "pasantia3"){
+
                 popup.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup\" class=\"btn-cerrar-popup\" onclick=\"cerrar()\"><i class=\"fa fa-times\"></i></button>\n" +
                     "          <h3>"+ materias[i].nombre+"</h3>\n" +                    
                     "          <span>Cantidad de Creditos: "+materias[i].creditos +"</span>\n" +
@@ -2728,6 +2730,7 @@ if (idpadre == "cets") {
             popup2.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup2\" class=\"btn-cerrar-popup\" onclick=\"cerrar2()\"><i class=\"fa fa-times\"></i></button>\n" +
 "          <h3 style='Color: rgb(37,50,104)'>"+ "CETS/IDIOMAS/LMS"+"</h3>\n" 
 
+
 }
 }
 function cerrar(){
@@ -2745,10 +2748,16 @@ function cets(){
             overlay2.classList.add('active');
             popup2.classList.add('active');
 
+            popup2.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup2\" class=\"btn-cerrar-popup\" onclick=\"cerrar2()\"><i class=\"fa fa-times\"></i></button>\n" +
+            "          <h3 style='Color: rgb(37,50,104)'>---- rellenar---</h3>\n"
+    ;
+
 
 }
 function cerrar2(){
 
+    overlay.classList.remove("active");
+    popup.classList.remove("active")
     overlay2.classList.remove("active"); 
     popup2.classList.remove("active")
 
