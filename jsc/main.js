@@ -641,8 +641,8 @@ let materiastel=[
     },
     {
         "id": "cets",
-        "hijo": [""],
-        "cat": "G",
+        "hijo": [],
+        "cat": "",
         "nombre":"CETS/IDIOMAS/MLE",
         "creditos":"18",
         "descripcion":""
@@ -983,7 +983,7 @@ let materiasciv = [
     },
     {
         "id": "topocart",
-        "hijo": [""],
+        "hijo": [],
         "cat": "E",
         "nombre":"",
         "profesor":"",
@@ -1275,8 +1275,8 @@ let materiasciv = [
     },
     {
         "id": "cets",
-        "hijo": [""],
-        "cat": "G",
+        "hijo": [],
+        "cat": "",
         "nombre":"CETS/IDIOMAS/MLE",
         "creditos":"18",
         "descripcion":""
@@ -1964,8 +1964,8 @@ let materiasind = [
     },
     {
         "id": "cets",
-        "hijo": [""],
-        "cat": "G",
+        "hijo": [],
+        "cat": "",
         "nombre":"CETS/IDIOMAS/MLE",
         "creditos":"18",
         "descripcion":""
@@ -2263,7 +2263,7 @@ let materiasinf=[
     },
     {
         "id": "tic2",
-        "hijo": [""],
+        "hijo": [],
         "cat": "C",
         "nombre":"",
         "profesor":"",
@@ -2329,7 +2329,7 @@ let materiasinf=[
     },
     {
         "id": "tic3",
-        "hijo": [""],
+        "hijo": [],
         "cat": "G",
         "nombre":"",
         "profesor":"",
@@ -2554,7 +2554,7 @@ let materiasinf=[
     },
     {
         "id": "etica",
-        "hijo": [""],
+        "hijo": [],
         "cat": "G",
         "nombre":"",
         "profesor":"",
@@ -2565,7 +2565,7 @@ let materiasinf=[
     },
     {
         "id": "cets",
-        "hijo": [""],
+        "hijo": [],
         "cat": "G",
         "nombre":"CETS/IDIOMAS/MLE",
         "creditos":"18",
@@ -2642,9 +2642,9 @@ function filtro(id){
 
             document.getElementById(materias[i].id).style.backgroundColor = "rgb(255, 247, 239)";
             document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.0rem rgba(216,217,219,0.0)";
-            
+
         }
-      
+
     }
     if (id=="todo"){
         isfiltred=false;
@@ -2713,7 +2713,7 @@ function setValue(value) {
 }*/
 function informar(idpadre) {
 if (idpadre != "cets"){
-		
+
     for (i = 0; i < materias.length; i++) {
 
         if (materias[i].id === idpadre) {
@@ -2727,7 +2727,7 @@ if (idpadre != "cets"){
         	popup.classList.add('active');
             stringPrevias = " ";
             var hij=0;
-            for (j = 0; j < materias.length; j++){        
+            for (j = 0; j < materias.length; j++){
                 for (k = 0; k < materias[i].hijo.length; k++){
                     if(materias[j].id === materias[i].hijo[k]){
                         if(hij === 0){
@@ -2742,12 +2742,12 @@ if (idpadre != "cets"){
             }
             if(stringPrevias===" "){stringPrevias= " No tiene previas"}
 
-            
+
 
             if(materias[i].profesor === "" && materias[i].dicta === "" && stringPrevias === " No tiene previas" && materias[i].exonerable === ""){}
             if(materias[i].id === "pasantia1" || materias[i].id === "pasantia2" || materias[i].id === "pasantia3"){
                 popup.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup\" class=\"btn-cerrar-popup\" onclick=\"cerrar()\"><i class=\"fa fa-times\"></i></button>\n" +
-                    "          <h3>"+ materias[i].nombre+"</h3>\n" +                    
+                    "          <h3>"+ materias[i].nombre+"</h3>\n" +
                     "          <span>Cantidad de Creditos: "+materias[i].creditos +"</span>\n" +
                     "<div></div>"+
                     "          <span>Descripcion: "+materias[i].descripcion+"</span>\n"
@@ -2770,41 +2770,40 @@ if (idpadre != "cets"){
                     "<div></div>"+
                     "          <span style='font-weight: bold; Color: rgb(37,50,104)'>Descripcion: </span>" +"<span style='Color: rgb(37,50,134)'>"+materias[i].descripcion+"</span>\n"
                 ;
-            }    
+            }
 
-        }	
+        }
 
     }
 }
-if (idpadre == "cets") {
-			var btnAbrirPopup = document.getElementById('idpadre'),
+//if (idpadre == "cets") {
+
+		/*	var btnAbrirPopup = document.getElementById('idpadre'),
         	overlay2 = document.getElementById('overlay2'),
         	popup2 = document.getElementById('popup2'),
         	btnCerrarPopup2 = document.getElementById('btn-cerrar-popup2');
-        	overlay.classList.add('active');
-            popup2.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup2\" class=\"btn-cerrar-popup\" onclick=\"cerrar2()\"><i class=\"fa fa-times\"></i></button>\n" +
-"          <h3 style='Color: rgb(37,50,104)'>"+ "CETS/IDIOMAS/LMS"+"</h3>\n" 
+        	overlay2.classList.add('active');
 
+*/
 
-}
+//}
 }
 function cerrar(){
 
 	overlay.classList.remove("active");
-	popup.classList.remove("active")	
+	popup.classList.remove("active")
 
 }
 
 function cets(){
-      
+
             overlay2 = document.getElementById('overlay2'),
             popup2 = document.getElementById('popup2'),
             btnCerrarPopup = document.getElementById('btn-cerrar-popup');
             overlay2.classList.add('active');
             popup2.classList.add('active');
-
-            popup2.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup2\" class=\"btn-cerrar-popup\" onclick=\"cerrar2()\"><i class=\"fa fa-times\"></i></button>\n" +
-            "          <h3 style='Color: rgb(37,50,104)'>---- rellenar---</h3>\n"
+    popup2.innerHTML="<button href=\"#\" id=\"btn-cerrar-popup2\" class=\"btn-cerrar-popup\" onclick=\"cerrar2()\"><i class=\"fa fa-times\"></i></button>\n" +
+        "          <h3 style='Color: rgb(37,50,104)'>"+ "CETS/IDIOMAS/LMS"+"</h3>\n"
     ;
 
 
@@ -2813,7 +2812,7 @@ function cerrar2(){
 
     overlay.classList.remove("active");
     popup.classList.remove("active")
-    overlay2.classList.remove("active"); 
+    overlay2.classList.remove("active");
     popup2.classList.remove("active")
 
 }
