@@ -2595,22 +2595,28 @@ else if( htmlid=="Telematica"){
 const mouseTarget = document.getElementsByClassName("btn");
 
 
-var staticbool=true;
 
+var staticbool=true;
+var isfiltred=false;
 function filtro(id){
     var a;
     if (id=="filtroE") {
+        isfiltred=true;
         a="E";
     }
     else if(id=="filtroG"){
         a="G"
+
+        isfiltred=true;
     }
     else if(id=="filtroC"){
         a="C"
+        isfiltred=true;
+
     }
     for (i=0; i<materias.length; i++){
 
-        if(staticbool){
+        if(true){
         if (materias[i].cat=="E" && materias[i].cat==a){
             document.getElementById(materias[i].id).style.backgroundColor="rgba(0,200,0,0.5)";
             document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.2rem rgba(033,231,0,0.5)";
@@ -2626,23 +2632,29 @@ function filtro(id){
             document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.2rem rgba(255,231,130,0.5)";
 
         }
+       else if(!materias[i].cat !== a){
+            document.getElementById(materias[i].id).style.backgroundColor = "rgb(255, 247, 239)";
+            document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.0rem rgba(216,217,219,0.0)";
+        }
 
         }
-        else if (!staticbool) {
+        else if (id=="todo") {
 
-            document.getElementById(materias[i].id).style.backgroundColor = "#f8f9fa";
-            document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.0rem rgba(216,217,219,0.5)";
+            document.getElementById(materias[i].id).style.backgroundColor = "rgb(255, 247, 239)";
+            document.getElementById(materias[i].id).style.boxShadow = "0px 0px 0px 0.0rem rgba(216,217,219,0.0)";
             
         }
       
-    } 
-      staticbool=!staticbool;
-  
+    }
+    if (id=="todo"){
+        isfiltred=false;
+    staticbool=!staticbool;
+    }
 }
 //----
 
 function pintar(idpadre) {
-if(staticbool){
+if(!isfiltred){
     for (i = 0; i < materias.length; i++) {
 
         if (materias[i].id === idpadre) {
@@ -2660,7 +2672,7 @@ if(staticbool){
 }
 }
 function despintar(idpadre) {
-if (staticbool) {
+if (!isfiltred ) {
     for (i = 0; i < materias.length; i++) {
         if (materias[i].id === idpadre)
             for (j = 0; j < materias[i].hijo.length; j++) {
@@ -3440,4 +3452,6 @@ document.getElementById("filtroE").addEventListener("click",e=>{filtro("filtroE"
 document.getElementById("filtroG").addEventListener("click",e=>{filtro("filtroG")})
 
 document.getElementById("filtroC").addEventListener("click",e=>{filtro("filtroC")})
+
+document.getElementById("todos").addEventListener("click",e=>{filtro("todo")})
 
