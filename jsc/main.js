@@ -21,7 +21,7 @@ let materiastel=[
         "profesor":"José Díaz Milesi",
         "creditos":"9",
         "semestre":"I",
-        "exonerable":"Se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "exonerable":"Se exonera parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
@@ -32,7 +32,7 @@ let materiastel=[
         "profesor":"Alfredo Piria",
         "creditos":"9",
         "semestre":"I",
-        "exonerable":"Se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "exonerable":"Se exonera parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
@@ -126,6 +126,17 @@ let materiastel=[
         "semestre":"II",
         "dicta":"Se dicta en semestre par",
         "exonerable":"Se exonerea parcialmente,el practico,con nota 10",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
+        "descripcion":""
+    },
+     {
+        "id": "caluclo",//calculo?
+        "hijo": ["analisis2", "gal2"],
+        "cat": "G",
+        "nombre":"Cálculo Numérico",
+        "profesor":"Maximiliano Stock",//falta
+        "creditos":"6",
+        "semestre":"III",
+        "exonerable":"",// "se exonerea parcialmente,el practico,con nota tal",se exonera totalmente con nota tal,no es exonerable
         "descripcion":""
     },
     {
